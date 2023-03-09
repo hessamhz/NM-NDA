@@ -1,0 +1,150 @@
+Country,City,Continent,Provider,Host,Ping,Latitude,Longitude,Region,IP
+Russia,Moscow,Europe,Beeline,msk-speedtest2.corbina.net,175.995812000025,55.7522,37.6156,Moskva,213.221.25.2
+United States,Atlanta,North America,Newworld CATV,test1.newworldcatv.ph,49.3871799999965,33.749,-84.388,Georgia,45.79.222.138
+United States,Schaumburg,North America,XenSpec,sp.netinformatik.com,69.728184000013,42.0142,-88.0932,Illinois,23.160.192.16
+Russia,Yoshkar-Ola,Europe,DOM.RU,speedtest.yola.ertelecom.ru,181.908539000005,56.6388,47.8908,"Mariy El, Respublika",
+Colombia,Barranquilla,South America,TigoUne,speedtestbaq1.tigo.com.co,102.960862999993,10.9639,-74.7964,Atlantico,
+Brazil,Ibiruba,South America,DGNet,speedtest.dgnet.com.br,177.754893000014,-28.6275,-53.0897,Rio Grande do Sul,
+Brazil,Guarapuava,South America,Almix Internet,www.almix.com.br,193.811906999997,-25.3953,-51.4581,Parana,
+Italy,Latina,Europe,Panservice,speedtest.panservice.it,163.251827000011,41.4661,12.9043,Lazio,212.66.97.26
+Poland,Debowiec,Europe,FHU Vifnet,speedtest.vifnet.pl,170.895226999988,49.6837,21.4607,Podkarpackie,
+Tanzania,Arusha,Africa,Arusha Art Ltd,speedtest.cybernet.co.tz,283.225138000006,-3.3667,36.6833,Arusha,
+United States,Meeker,North America,Colorado Fiber Community,rspeedtest.fibercommunity.net,54.8528240000223,40.0449,-107.9447,Colorado,
+Brazil,Porto Alegre,South America,http://topwebtelecom.net.br/,topwebtelecom.net.br,162.641070999996,-30.0331,-51.23,Rio Grande do Sul,177.12.170.30
+Australia,Perth,Oceania,Emerge Internet,speedtest-p1.emergeinternet.com.au,194.771193000008,-31.9522,115.8614,Western Australia,103.101.234.108
+Brazil,Sobral,South America,BrandaoNet,speed1.brandaonet.com.br,216.444438999986,-3.6861,-40.3497,Ceara,187.60.32.212
+Brazil,Sao Paulo,South America,GAMERS CLUB,speedtest.gamersclub.com.br,163.798019000012,-23.5474,-46.6374,Sao Paulo,
+Indonesia,Jakarta,Asia,Firstmedia,sby-speedtest.link.net.id,213.903966999993,-6.2087,106.8455,Jakarta Raya,
+France,Paris,Europe,LaFibre.info,bordeaux.lafibre.info,145.290051000018,48.8584,2.2945,Ile-de-France,
+United States,Tampa,North America,SPEED TURBO INTERNET,speedturbo.com.br,60.8567639999933,28.0074,-82.5154,Florida,199.167.144.250
+Germany,Karlsruhe,Europe,TelemaxX Telekommunikation GmbH,speedtest.telemaxx.net,147.952368999995,49.0047,8.3858,Baden-Wurttemberg,85.115.3.102
+Brazil,Rio do Sul,South America,Taionet Informatica Ltda,sp1.taionet.com.br,179.424821999987,-27.2142,-49.6431,Santa Catarina,168.195.196.7
+Canada,Edmonton,North America,Switch Inc.,speedtest.switch.ca,60.435162999994,53.5501,-113.4687,Alberta,
+Thailand,Bangkok,Asia,"Thaiware Communication Co.,Ltd.",speedtest.thaiware.com,200.399818000022,13.75,100.5167,Krung Thep Maha Nakhon,
+Pakistan,Karachi,Asia,WorldCall,speedtest-lhr.worldcall.pk,270.798570000011,24.9056,67.0822,Sindh,117.102.7.222
+Australia,Sydney,Oceania,softlayer,speedtest.syd01.softlayer.com,152.26849199999,-33.8679,151.2073,New South Wales,
+Russia,Trubchevsk,Europe,Satelcom-Service Ltd.,www.trub.net.ru,188.500398999992,52.5798,33.7644,Bryanskaya oblast',
+United States,Atlanta,North America,Total Information Management Corporation,ns1.timbrc.ph,49.8608750000074,33.749,-84.388,Georgia,
+United States,Richmond,North America,"VA SkyWire, LLC",sp1.vaskywire.net,77.2951570000089,37.5922,-77.498,Virginia,162.245.135.1
+Canada,Montreal,North America,Bell Canada,mtl02spd01.srvr.bell.ca,80.8247789999825,45.5088,-73.5878,Quebec,
+Belize,Dangriga,North America,Speednet Communications LTD.,speedtest2.speednet-wireless.com,74.2961410000191,16.9692,-88.2321,Stann Creek,186.65.88.74
+Indonesia,Jakarta,Asia,Circlecom,speedtest.circleone.net.id,188.028210999988,-6.2087,106.8455,Jakarta Raya,
+Brazil,Anapolis,South America,EXPLORERNET TELECOM,speedtest-anapolis-01.explorernet.com.br,181.832806999978,-16.3267,-48.9528,Goias,177.75.48.131
+Israel,Haifa,Asia,LAN-WAN I.T Services LTD,sts01.cloudxt.net,187.638644000003,32.8156,34.9892,Hefa,
+Spain,Madrid,Europe,Be Free Networks S.L.,speedtest.befreewifi.com,143.410958999993,40.417,-3.6839,"Madrid, Comunidad de",
+Germany,Falkenstein,Europe,BOR-WAN Michał Paszkowski,bor-wan.pl,150.750410000001,50.4779,12.3713,Sachsen,88.99.210.143
+Netherlands,Amsterdam,Europe,Ziggo,speedtest1.mnd.bulk.iss.as9143.net,157.846601999978,52.3785,4.9,Noord-Holland,
+Thailand,Nakhon Si Thammarat,Asia,AIS,speedtest-sni1.ais-idc.net,207.983771999977,8.4333,99.9667,Nakhon Si Thammarat,58.64.55.12
+Brazil,Carinhanha,South America,R4 TELECOM,speedtest-pma.r4tecnologia.net,192.751829000002,-14.3047,-43.765,Bahia,
+Ukraine,Kovel',Europe,TTI-Ukraine,tti-ukraine.net.ua,174.807776000023,51.2153,24.7087,Volynska oblast,95.47.248.10
+Uzbekistan,Tashkent,Asia,Ucell,speedtest.ucell.uz,229.485415999989,41.2646,69.2163,Toshkent,
+Poland,Poznan,Europe,Horyzont Technologie Internetowe,test.horyzont.net,168.110027000012,52.4069,16.9299,Wielkopolskie,
+Iraq,Kuysanjaq,Asia,AlsardFiber,speedtest.alsardfiber.com,217.985069999997,36.0862,44.6294,Arbil,
+Poland,Krakow,Europe,F.H.U. Compower,speedtest.compower.pl,167.399678999999,50.0833,19.9167,Malopolskie,
+Cyprus,Nicosia,Europe,GhoFi,st1-cy.ghofi.com,207.769108999997,35.1667,33.3667,Lefkosia,
+Ukraine,Kiev,Europe,Lanet Network,speedtest.lanet.ua,171.932147000007,50.4547,30.5238,Kyiv,
+United States,Rexburg,North America,City of Rexburg,spr.fybercom.net,54.4606830000021,43.826,-111.7897,Idaho,
+Brazil,Sao Paulo,South America,Vivo CTA,cta.testepower.com.br,169.158213999992,-23.5474,-46.6374,Sao Paulo,
+Brazil,Varginha,South America,NetVGA,speedtest.netvga.com.br,167.864024000011,-21.5514,-45.4303,Minas Gerais,
+United States,Tallahassee,North America,"CenturyLink, Inc",spokane.speedtest.centurylink.net,43.4420219999936,30.4383,-84.2807,Florida,
+Israel,Netanya,Asia,Cellcom Israel,speed.cellcom.co.il,194.408449999997,32.3336,34.8578,HaMerkaz,
+Russia,Ulan-Ude,North America,MTS,213.87.101.14,256.132292999979,51.826,107.6098,"Buryatiya, Respublika",
+Saudi Arabia,Riyadh,Asia,Atheeb Telecoms Company (GO),hispeedtest.go.com.sa,236.660809,24.6877,46.7219,Ar Riyad,94.77.249.26
+Ukraine,Hnidyn,Europe,STRIM,speedtest.strim.com.ua,171.765891999996,50.329,30.7106,Kyivska oblast,
+Mozambique,Mozambique,Africa,Movitel,speedtest1.movitel.co.mz,307.420304999994,-15.0347,40.7345,Nampula,
+Slovakia,Ilava,Europe,kiki internet,tnjil.kiki.sk,162.138024000001,48.9977,18.2353,Nitriansky kraj,
+Belarus,Minsk,Europe,"JLLC ""COSMOS TV""",sp1.cosmostv.com,170.623826999986,53.9,27.5667,Minskaya voblasts',213.184.238.32
+Japan,Tokyo,Asia,Future Plan,openvz3.terence.cf,107.310068000004,35.6895,139.6917,Tokyo,
+Germany,Alfdorf,Europe,TBits.net GmbH,speedtest1.tbits.net,171.831695000009,48.8438,9.7186,Baden-Wurttemberg,
+Cambodia,Phnom Penh,Asia,Smart Axiata,speedtest.smart.com.kh,210.175611000011,11.5625,104.916,Phnom Penh,
+Canada,Calgary,North America,WestNet Wireless,speedtest.westnet.ca,55.2460640000163,51.0386,-113.9815,Alberta,104.157.124.34
+Brazil,Imperatriz,South America,RADAR CONNECT - BANDA LARGA,speedtest.radarconnect.com.br,209.942301000012,-5.5264,-47.4917,Maranhao,
+Philippines,San Juan,Asia,ClearPath Networks,speedtest.clearpath.net.ph,164.324065000017,9.1603,123.4926,Zambales,
+Brazil,Ubaitaba,South America,PontoNet,s4.telecompontonet.com,182.749287999997,-14.3125,-39.3233,Bahia,
+Spain,Barcelona,Europe,OmniAccess S.L.,speedtest.omniaccess.com,157.175271,41.3888,2.159,Catalunya,
+Italy,Milan,Europe,Stadtwerke Finsterwalde,speedtest_sfdigital.swfi.de,156.521687999998,45.4643,9.1895,Lombardia,Not available
+Brazil,Joao Pessoa,South America,3M TELECOM,speedtest.bandalarga3m.com.br,217.655339000004,-7.115,-34.8631,Pariba,
+Russia,Kaliningrad,Europe,Tis-Dialog,speedtest.tis-dialog.ru,180.666128000013,54.7065,20.511,Kaliningradskaya oblast',83.219.128.133
+Australia,Adelaide,Oceania,Telstra,ade1.speedtest.telstra.net,166.293268000004,-34.9287,138.5986,South Australia,
+Taiwan,Taitung,Asia,Chief Telecom,dlv3-1.speedtest.idv.tw,139.900237000006,22.7583,121.1444,Taitung,
+United States,New York City,North America,Honest.net,speedtest.honest.net,66.6845640000133,40.7135,-74.008,New York,
+Malaysia,Kuching,Asia,Celcom Axiata,speedosht1.celcom.net.my,180.561200999989,1.55,110.3333,Sarawak,
+United States,Wenatchee,North America,iFIBER Communications,speedtest.ifiber.tv,40.8984870000211,47.4235,-120.3103,Washington,
+Germany,Munich,Europe,Rostelecom,speedtest.cherkessk.u-disk.ru,158.664324,48.1374,11.5755,Bayern,
+Netherlands,Amsterdam,Europe,Uniweb,speed.uniweb.net.co,2000,52.3785,4.9,Noord-Holland,
+United States,Green City,North America,Northeast Missouri Rural Telephone,speedtest.nemr.net,61.0915020000107,40.2641,-92.9518,Missouri,
+Poland,Bielsko-Biala,Europe,Simant,st1.simant.pl,167.060208999999,49.8224,19.0469,Slaskie,
+Serbia,Novi Sad,Europe,E-CAPS,speed1.e-caps.net,176.986983999996,45.2517,19.8369,Juznobacki okrug,
+Russia,Nizhnevartovsk,Europe,JSC Avantel,st0-nv.avantel.ru,213.759377000002,60.9344,76.5531,Khanty-Mansiyskiy avtonomnyy okrug,
+Brazil,Tres Rios,South America,TR Serviços de Telecomunicações LTDA ME,speedtest.trbandalarga.com.br,161.489195999991,-22.1167,-43.2092,Rio de Janeiro,
+Australia,Mount Gambier,Oceania,Optus,rockingham.wa.speedtest.optusnet.com.au,194.79145599999,-37.8318,140.7792,South Australia,
+United States,Bossier City,North America,Suddenlink Communications LLC,speedtest21.suddenlink.net,52.5088759999903,32.516,-93.7321,Louisiana,
+Brazil,Cerquilho,South America,FasterNet,speedtest.testesuavelocidade.com.br,166.134607999993,-23.165,-47.7436,Sao Paulo,
+United States,Taos,North America,"Brownrice Internet, Inc",web1.brownrice.com,45.7693980000045,36.3974,-105.5945,New Mexico,
+Brazil,Jose Bonifacio,South America,Oquei Solucoes em TI,speedtest.oquei.com.br,175.88200199998,-21.0528,-49.6883,Sao Paulo,200.95.193.129
+Myanmar,Yangon,Asia,NETCORE,speed.netcoreinternet.com,219.286877999991,16.8053,96.1561,Yangon,103.80.36.34
+Malawi,Lilongwe,Africa,SKYBAND,ookla-llw.skyband.mw,326.438732999975,-13.9669,33.7873,Lilongwe,41.190.95.232
+Italy,Venice,Europe,APV Investimenti S.p.A.,speedtest-1.apvinvestimenti.it,163.552449000008,45.4386,12.3267,Veneto,
+Mexico,Monterrey,North America,AXTEL,mtyspeedtest.axtel.mx,83.620725000003,25.6667,-100.3167,Nuevo Leon,
+Australia,Gold Coast,Oceania,Vocus Communications,speedtest-bne.vocus.net,157.584141000001,-28.0003,153.4309,Queensland,
+South Africa,Pretoria,Africa,Seacom Ltd,sl-01-cpt.za.seacomnet.com,311.378386999991,-25.7449,28.1878,Gauteng,
+Argentina,La Plata,South America,Horus Sistemas Informaticos SRL,st.horusnet.com.ar,134.906725999997,-34.9215,-57.9545,Buenos Aires,
+India,Gwalior,Asia,Pc Care Airway Infratel Pvt. Ltd.,speedtest.airwaybroadband.com,249.693275999988,26.2236,78.1792,Madhya Pradesh,
+Philippines,Makati,Asia,Smart Communications Inc.,greenhills.smart.com.ph,159.343419999999,14.5503,121.0327,National Capital Region,
+Canada,Halifax,North America,"Eastlink – St. John’s, NFLD",speedtest-nl.eastlink.ca,100.117783000002,44.6564,-63.5961,Nova Scotia,
+Macao,Macau,Asia,MTel,speedtest.mtel.mo,153.907269000001,22.2006,113.5461,Macao,
+Mexico,Tlalnepantla,North America,Triara,speedtest1-cuernavaca.triara.com,50.757042999976,19,-98.9833,Morelos,
+United States,Eureka,North America,Suddenlink Communications LLC,speedtest33.suddenlink.net,25.1787490000197,40.8021,-124.1637,California,
+United States,Dahlgren,North America,Hamilton County Communications,sp1.hamiltoncom.net,59.9149640000007,38.1906,-88.5377,Illinois,
+United States,Porter,North America,Tachus Fiber Broadband,speedtest.tachus.com,37.6287509999997,30.1049,-95.2583,Texas,
+United States,Lawrence,North America,Kansas Research and Education Network,speedtest-kc.kanren.net,41.377969000024,38.9641,-95.2536,Kansas,
+Switzerland,Zuchwil,Europe,SolNet,speedcheck.solnet.ch,153.342400000014,47.2017,7.5665,Solothurn,
+Russia,Chita,Europe,Mig-service Chita,speedtest.migchita.ru,245.824725999995,52.0333,113.55,Zabaykal'skiy kray,
+Czech Republic,Prague,Europe,JM-Net z.s.,speed-jesenice.jmnet.cz,153.06829299999,50.088,14.4208,"Praha, Hlavni mesto",
+Vietnam,Da Nang,Asia,PowerNet,speedtest.powernet.vn,171.137995000009,16.0678,108.2208,Da Nang,
+Brazil,Tres Lagoas,South America,YES TELECOM,speedtest.yestelecom.net.br,174.531298000005,-20.7511,-51.6783,Mato Grosso do Sul,
+United States,Oneonta,North America,Fuzion USA,gurley-speed.buyfuzion.com,36.0261419999972,33.9469,-86.4687,Alabama,
+Russia,Salekhard,Europe,Yamaltelecom,speedtest.ytc.ru,229.658846000007,66.53,66.6019,Yamalo-Nenetskiy avtonomnyy okrug,
+South Africa,Pretoria,Africa,CSBT,www.csbt.co.za,291.327161999988,-25.7449,28.1878,Gauteng,
+United States,Cedar Falls,North America,Cedar Falls Utilities,speedtest.cfu.net,61.6885299999979,42.5286,-92.4509,Iowa,
+Italy,Rossano Veneto,Europe,Flynet.it,speedtest.dbnetwork.it,158.476154999988,45.7058,11.806,Veneto,
+South Africa,Bethal,Africa,Vaal Networking Consultants,speedtest.vaalnetworking.co.za,290.464428999996,-26.4579,29.4655,Mpumalanga,
+South Africa,Johannesburg,Africa,Vox Telecom,speedtest-jhb.voxtelecom.co.za,292.250610999986,-26.2023,28.0436,Gauteng,
+Russia,Saratov,Europe,DOM.RU,speedtest.saratov.ertelecom.ru,188.437688999983,51.5667,46.0333,Saratovskaya oblast',109.195.16.230
+United States,Modesto,North America,Velociter Wireless Inc.,sp5.velociter.net,24.2237329999853,37.6391,-120.9969,California,
+United States,Burlington,North America,Skynet Internet Broadband Private Limited,speed.vajratelecom.net,16.2901699999907,42.5085,-71.2011,Massachusetts,
+Indonesia,Batam,Asia,PT Telekomunikasi Indonesia,banjarmasin.speedtest.telkom.net.id,201.972917999996,1.0833,104.0333,Kepulauan Riau,118.98.104.250
+Brazil,Sao Luis,South America,SPEEDNET TELECOM,speedtest.speedenet.com.br,212.907505000004,-2.5297,-44.3028,Maranhao,
+Brazil,Joao Camara,South America,MGNET,speedtest1.provedormgnet.com.br,203.698456999973,-5.5375,-35.8197,Rio Grande do Norte,
+Germany,Munich,Europe,Rostelecom,speedtest.novosibirsk.u-disk.ru,159.751504000013,48.1374,11.5755,Bayern,
+Pakistan,Gadani,Asia,StormFiber,speedtest.stormfiber.com,266.304767000008,25.1185,66.7299,Balochistan,
+Bolivia,Santa Cruz de la Sierra,South America,Digital Tv Cable,digital.bo,157.843560999993,-17.8,-63.1667,Santa Cruz,190.211.224.35
+Russia,Usinsk,Europe,Swift Telecom,test.usinsknet.ru,212.477680999996,65.9939,57.5281,"Komi, Respublika",
+India,Bijapur,Asia,supersonic isp connectivity india pvt ltd,sp1.supersonicbroadband.com,268.296835000001,16.8333,75.7,Karnataka,
+Russia,Moscow,Europe,Rostelecom,syktyvkar4g.speedtest.rt.ru,197.557036000006,55.7522,37.6156,Moskva,87.226.221.44
+Russia,Sochi,Europe,BiSV,speed2.bisv.ru,213.199059000004,43.5992,39.7257,Krasnodarskiy kray,
+Brazil,Sao Paulo,South America,ATVNET,atv.com.br,162.475377999982,-23.5474,-46.6374,Sao Paulo,
+Ireland,Dublin,Europe,Kerry Broadband Ltd,speedtest.kerrybroadband.net,157.473399999986,53.344,-6.2672,Dublin,
+Russia,Moscow,Europe,"OOO ""MKC""",speedtest.mkc-net.ru,173.108655000021,55.7522,37.6156,Moskva,
+Australia,Mount Gambier,Oceania,Optus,speedtest.ebw.optusnet.com.au,158.641294000006,-37.8318,140.7792,South Australia,
+Poland,Nowa Ruda,Europe,BRK NETWORK DEVICES,speedtest1.devices.net.pl,171.586598000005,50.5801,16.5016,Dolnoslaskie,
+Brazil,Antonina,South America,IPLink Telecom,speedtest2.iplinktelecom.com.br,172.215942999998,-25.4286,-48.7119,Parana,177.8.220.34
+Hong Kong,Hong Kong,Asia,BGP Network,speedtest.hk.bgp.net,193.071092000025,22.2855,114.1577,Hong Kong,
+Brazil,Itamarandiba,South America,MSol Intenet,speedtest.msolinternet.com.br,176.77855300002,-17.8572,-42.8589,Minas Gerais,
+Brazil,Manaus,South America,Ultra Connect,ultraconnect.ddns.us,219.344294999985,-3.1019,-60.025,Amazonas,
+Brazil,Turmalina,South America,MC,sp2.mcinfor.com.br,176.229417000002,-17.2856,-42.73,Minas Gerais,177.85.104.141
+United States,Clovis,North America,Yucca Telecom,speedtest.yucca.net,41.1408829999971,34.4048,-103.2052,New Mexico,
+Russia,Cherkessk,Europe,UPP Microcomponent LLC,cherkessk.net,195.777749000001,44.2233,42.0578,Karachayevo-Cherkesskaya Respublika,195.62.92.222
+Ukraine,Dnipro,Europe,"GlobalNet, LLC",speed.globalnet.dp.ua,180.615971000009,48.45,34.9833,Dnipropetrovska oblast,
+Italy,Spezzano Albanese,Europe,Link Telecomunicazioni,speedtest1.link.cs.it,171.411368999998,39.6688,16.3105,Calabria,
+Russia,Tyumen',Europe,OOO Pozitiv Telecom,sp.pozitivtelecom.ru,200.913248999996,57.1522,65.5272,Tyumenskaya oblast',
+Brazil,Frederico Westphalen,South America,TcheTurbo Provedor,speedtest.tcheturbo.com.br,181.455424000006,-27.3592,-53.3944,Rio Grande do Sul,
+Russia,Kazan,Europe,Beeline,kazan1.speedtest.corbina.net,189.457417,55.7887,49.1221,"Tatarstan, Respublika",
+Germany,Koeln,Europe,CORSIN.DE,speedtest.corsin.de,153.600307000005,50.9333,6.95,Nordrhein-Westfalen,
+Russia,Chudovo,Europe,CJSC RASCOM,stpetersburg1.speedtest.rascom.ru,163.857889999974,59.1167,31.6833,Novgorodskaya oblast',
+Norway,Stokmarknes,Europe,Trollfjord Broadband AS,ookla.trollfjord.no,183.059783000004,68.5646,14.9108,Nordland,
+United States,LaPorte,North America,Surf Air Wireless,speedtest.surfairwireless.net,60.0727110000037,41.6223,-86.6965,Indiana,
+France,Roubaix,Europe,Smishcraft,sp1.smishcraft.com,162.675808999978,50.6942,3.1746,Hauts-de-France,
+Indonesia,Jakarta,Asia,PT Mora Telematika Indonesia,speedtest-btm.moratelindo.co.id,190.239560999999,-6.2087,106.8455,Jakarta Raya,
+Argentina,Jardin America,South America,SWISS-NET ENERGIA & TELECOMUNICACIONES,speedtest.swiss-net.com.ar,152.412429999998,-27.0435,-55.227,Misiones,
+United States,Las Vegas,North America,Speed test,speedtest.lasvegas.net,13.97,36.1518,-115.1149,Nevada,
