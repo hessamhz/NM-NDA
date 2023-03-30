@@ -1,0 +1,2129 @@
+,ip.src,ip.dst,ip.proto,highest_layer,length,number,sniff_time,sniff_timestamp,tcp.srcport,tcp.dstport,tcp.flags,tcp.seq,tcp.ack,tls,dns.id,dns.flags.response,dns.qry.name,dns.resp.name,dns.qry.type,dns.qry.class,dns.count.queries,dns.count.answers,dns.count.authority
+0,192.168.1.12,216.239.38.180,6,TLS,462,1,2023-03-30 22:49:18.999233,1680209358.999232941,51730,443,0x0018,1,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 391
+	Encrypted Application Data: 819317d728bd5d7b452b8c6de42005321974942f846a4758bb04a677cac16e3ff6c2cbca…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+1,192.168.1.12,216.239.38.180,6,TLS,537,2,2023-03-30 22:49:18.999272,1680209358.999272412,51730,443,0x0018,397,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 466
+	Encrypted Application Data: ccc68421a23cffb81dca3868bb67d8b3a155ea269c7a1dc6c7d45059fad97d9d600bf757…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+2,192.168.1.12,216.239.38.180,6,TLS,178,5,2023-03-30 22:49:19.065702,1680209359.065701982,51730,443,0x0018,868,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 107
+	Encrypted Application Data: c9ff6fb88526c7b05b59a07c5a11b095719b49ed08b55fac951aac582af1a9eedd3d787d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+3,216.239.38.180,192.168.1.12,6,TLS,579,7,2023-03-30 22:49:19.208516,1680209359.208516183,443,51730,0x0018,1,980,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 508
+	Encrypted Application Data: 27d4805efb4121200e7d2b913465c3af4c9400c774e4116975583d8081f779b2d3f2ec8d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+4,216.239.38.180,192.168.1.12,6,TLS,818,8,2023-03-30 22:49:19.208517,1680209359.208516559,443,51730,0x0018,514,980,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 747
+	Encrypted Application Data: a6778062e4c1fb21c92c6c639923250bd92a055985d5bf9bc6481404c9be47468048e443…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+5,216.239.38.180,192.168.1.12,6,TLS,97,10,2023-03-30 22:49:19.210796,1680209359.210796462,443,51730,0x0018,1266,980,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: b627ffe86d75d43b52be66c2f1bcad371a758a7668831d1e8514
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+6,216.239.38.180,192.168.1.12,6,TLS,105,11,2023-03-30 22:49:19.210998,1680209359.210998311,443,51730,0x0018,1297,980,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: fe09bad57ce20b4309574456d552efb31e1977959b92ab1589ba1807e61f55ed2c22
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+7,192.168.1.12,216.239.38.180,6,TLS,105,13,2023-03-30 22:49:19.212000,1680209359.212000482,51730,443,0x0018,980,1336,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 4659bcea6626e9c917f9b3b5bcbae06d75035bedce5cdbdfa29d4a0fe0cf45011961
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+8,192.168.1.12,216.239.38.180,6,TLS,433,15,2023-03-30 22:49:19.216515,1680209359.216514491,51730,443,0x0018,1019,1336,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 362
+	Encrypted Application Data: bff0ea5fce8726506a7224fb5993fbff9aefccf7cc1ad3babc004670050b270b70dd53f0…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+9,216.239.38.180,192.168.1.12,6,TLS,585,17,2023-03-30 22:49:19.220895,1680209359.220894656,443,51730,0x0018,1336,1386,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 514
+	Encrypted Application Data: d4fdff55895fca6ac36305a0baaf80ddb78893caa5127e415eec7b31e948d4919b4eb1c1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+10,216.239.38.180,192.168.1.12,6,TLS,99,18,2023-03-30 22:49:19.222253,1680209359.222252739,443,51730,0x0018,1855,1386,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 28
+	Encrypted Application Data: f5007ab5ee87b5d4f456e255409a006dec60cbfab79c65dfcdb96059
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+11,216.239.38.180,192.168.1.12,6,TLS,97,19,2023-03-30 22:49:19.222363,1680209359.222363411,443,51730,0x0018,1888,1386,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: 61589c8e574ceb4b0825e95b2564afa6de4d8dd359bdd2dd212a
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+12,216.239.38.180,192.168.1.12,6,TLS,105,20,2023-03-30 22:49:19.222905,1680209359.222904817,443,51730,0x0018,1919,1386,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 0dc995ae59c3763f2ecfdebbf2ae2952f4d67ce045fa90c30ce32ccc0e0b051bba51
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+13,192.168.1.12,216.239.38.180,6,TLS,105,22,2023-03-30 22:49:19.224011,1680209359.224010640,51730,443,0x0018,1386,1958,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: f9e6bcb89dfd985ae6a1f8409ff7404ff5b9be8c12d50ddb7e8ae7e42a4f53185209
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+14,216.239.38.180,192.168.1.12,6,TLS,582,26,2023-03-30 22:49:19.460341,1680209359.460341519,443,51730,0x0018,1958,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 511
+	Encrypted Application Data: f03622bde2b2933b528b07f2a47792cd5eff37085b7a9ff41986f3a3b75652d15d26ec16…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+15,216.239.38.180,192.168.1.12,6,TLS,968,27,2023-03-30 22:49:19.460807,1680209359.460807199,443,51730,0x0018,2474,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 897
+	Encrypted Application Data: 0be510abb7355ba517e42aa6b421cc33515b002d07368ec731a8221da2c323ac8b185088…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+16,216.239.38.180,192.168.1.12,6,TLS,97,29,2023-03-30 22:49:19.464377,1680209359.464377376,443,51730,0x0018,3376,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: b2f449e1483f02288f7a2247470d60224e66caafe78df9c790ce
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+17,216.239.38.180,192.168.1.12,6,TLS,105,30,2023-03-30 22:49:19.464859,1680209359.464858749,443,51730,0x0018,3407,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 952e75e839ecf0134eb77268908a00a61296960ebaae126277f661741a8f57d7ccd0
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+18,192.168.1.12,216.239.38.180,6,TLS,105,32,2023-03-30 22:49:19.464959,1680209359.464958863,51730,443,0x0018,1425,3446,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: a3deaa5aeb8692580dd440f52f448a43a841e4c8cdf314bf5e65fe212022f46b0348
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+19,216.239.38.180,192.168.1.12,6,TLS,582,33,2023-03-30 22:49:19.465744,1680209359.465743997,443,51730,0x0018,3446,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 511
+	Encrypted Application Data: 64cb7f9790117ef487b884da41e958217cfc02e60d17028d2348117d446afd412c531369…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+20,216.239.38.180,192.168.1.12,6,TLS,785,34,2023-03-30 22:49:19.467331,1680209359.467331354,443,51730,0x0018,3962,1425,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 714
+	Encrypted Application Data: 15ac0db2b2e94f3ac018812ac23e365e54b8e444c7cc5fecf5c40df3a85c6b46c9400035…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+21,216.239.38.180,192.168.1.12,6,TLS,276,37,2023-03-30 22:49:19.469352,1680209359.469352319,443,51730,0x0018,4681,1464,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 205
+	Encrypted Application Data: f05adb0876948695b1d27797a62a56a3dd9135cd2bf13f0f85f7c07141892dfc79ebd95d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+22,216.239.38.180,192.168.1.12,6,TLS,105,38,2023-03-30 22:49:19.469440,1680209359.469440050,443,51730,0x0018,4891,1464,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: d56b5f6ab63f32f4722c867fb67a04c51c12ac0f6dd6aa815ba23411446c009cea56
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+23,192.168.1.12,216.239.38.180,6,TLS,105,40,2023-03-30 22:49:19.469902,1680209359.469902011,51730,443,0x0018,1464,4930,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: e302e982bd2994cdafebc2d584b46a5dd7c9db4eef319afa2e0232c665a578e5ad81
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+24,192.168.1.12,216.239.38.180,6,TLS,434,41,2023-03-30 22:49:19.474627,1680209359.474627540,51730,443,0x0018,1503,4930,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 363
+	Encrypted Application Data: 9b940c126cdb2b6027a32d6114dbb2f523877c0d5982d6a38b83a4474042b91d71e31429…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+25,192.168.1.12,192.168.1.1,17,DNS,84,45,2023-03-30 22:49:19.708939,1680209359.708939201,,,,,,,0xffee,0,www.bbc.co.uk,<Root>,1,0x0001,1,0,0
+26,192.168.1.12,192.168.1.1,17,DNS,84,46,2023-03-30 22:49:19.709121,1680209359.709121237,,,,,,,0x30f3,0,www.bbc.co.uk,<Root>,28,0x0001,1,0,0
+27,192.168.1.1,192.168.1.12,17,DNS,164,47,2023-03-30 22:49:19.714100,1680209359.714099722,,,,,,,0xffee,1,www.bbc.co.uk,www.bbc.co.uk,1,0x0001,1,3,0
+28,192.168.1.1,192.168.1.12,17,DNS,209,48,2023-03-30 22:49:19.716588,1680209359.716588235,,,,,,,0x30f3,1,www.bbc.co.uk,www.bbc.co.uk,28,0x0001,1,2,1
+29,192.168.1.12,192.168.1.1,17,DNS,89,49,2023-03-30 22:49:19.716859,1680209359.716859067,,,,,,,0x5cae,0,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+30,192.168.1.1,192.168.1.12,17,DNS,89,50,2023-03-30 22:49:19.717660,1680209359.717660219,,,,,,,0x5cae,1,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+31,192.168.1.12,216.239.38.180,6,TLS,1451,54,2023-03-30 22:49:19.743288,1680209359.743288155,51730,443,0x0018,1871,4930,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1380
+	Encrypted Application Data: 459dcfab8a40d60f5772a8141332087c10625bca2b77b0393e7f5c46a49e37f89be78bc6…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+32,192.168.1.12,216.239.38.180,6,TLS,100,55,2023-03-30 22:49:19.743420,1680209359.743419777,51730,443,0x0018,3256,4930,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 29
+	Encrypted Application Data: 834a7e7e8e158db3c073ce116d0bdaba4603b5048d28c9286cd491a3ad
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+33,192.168.1.12,151.101.240.81,6,TLS,583,57,2023-03-30 22:49:19.841515,1680209359.841514687,37864,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 1e5de63432a9576c0b79171f1c649783d09a965a9e99ba18fe1d02fceead0e92
+	GMT Unix Time: Feb 22, 1986 16:31:00.000000000 CET
+	Random Bytes: 32a9576c0b79171f1c649783d09a965a9e99ba18fe1d02fceead0e92
+	Session ID Length: 32
+	Session ID: d04cc6579cd8a09b2b49688ecc78c3844594103a676a8b3f57d6f65d937a6137
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=18)
+	Type: server_name (0)
+	Length: 18
+	Server Name list length: 16
+	Server Name Type: host_name (0)
+	Server Name length: 13
+	Server Name: www.bbc.co.uk
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 2ac55be2b8adbf527a2c1caa24d460be3f2ce8785d0295b8da1201c922e0eb42
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=159)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 159
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+34,151.101.240.81,192.168.1.12,6,TLS,1442,62,2023-03-30 22:49:20.057163,1680209360.057163109,443,37864,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 7b9d9d3538668b65745c56409ecf5fabe5d6e95ea6d34fceb8eae0871049eaa6
+	Session ID Length: 32
+	Session ID: d04cc6579cd8a09b2b49688ecc78c3844594103a676a8b3f57d6f65d937a6137
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+	Supported Version: TLS 1.3 (0x0304)
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: c190e78cc054583076eeaa2c2ef7ab85282057b2930e970cb12bbfe31dad3e29
+	JA3S Fullstring: 771,4865,43-51
+	JA3S: f4febc55ea12b31ae17cfb7e614afda8
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 9d2c2302c0ea093873bf781bf581f85270d5717bf9cd4f4a6cb2ae621c2d4fd8a4ed647f…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Length: 42
+	Extension: key_share (len=36)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Type: key_share (51)
+	Length: 36
+",,,,,,,,,
+35,151.101.240.81,192.168.1.12,6,TLS,2053,65,2023-03-30 22:49:20.057197,1680209360.057197065,443,37864,0x0018,2753,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4011
+	Encrypted Application Data: b0d7a82a16be9b6b4b90e22b58ea716bf1d52adabb1df4b5f5e97b1dbd25e5856f24e745…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+36,192.168.1.12,151.101.240.81,6,TLS,130,68,2023-03-30 22:49:20.060956,1680209360.060956384,37864,443,0x0018,518,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 0eab54da3ef32ea4c504cd5e82cd0b98ed461e9ef4cd411da1d2a69894ede2d699211520…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 53
+",,,,,,,,,
+37,192.168.1.12,151.101.240.81,6,TLS,232,69,2023-03-30 22:49:20.061518,1680209360.061518378,37864,443,0x0018,582,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 161
+	Encrypted Application Data: 949a02c54c64ba9401aa7e4e64b2bb9b01e60e4df1da1ab59295f79fd9a027d04bfb4ee9…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+38,151.101.240.81,192.168.1.12,6,TLS,2818,72,2023-03-30 22:49:20.070699,1680209360.070698946,443,37864,0x0018,4740,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: fd09235a2543bfad176c837772c7e4f7b6f27d4178480fe1bd4ab275f10c42fdd18ead69…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+39,151.101.240.81,192.168.1.12,6,TLS,2818,74,2023-03-30 22:49:20.070752,1680209360.070752004,443,37864,0x0018,7492,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 396ec7a878136576732c896c3f4ae54666eee8325c987982d8a618321558d7945df25d70…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+40,151.101.240.81,192.168.1.12,6,TLS,2818,75,2023-03-30 22:49:20.070752,1680209360.070752074,443,37864,0x0018,10244,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f2f64e2f06110ac08a7682b156c1cc89b005259ee70970d04da959e2e782e898ac069327…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+41,151.101.240.81,192.168.1.12,6,TLS,2818,77,2023-03-30 22:49:20.078393,1680209360.078393281,443,37864,0x0018,12996,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 19265fc47b0a7e44ddcebfa4a6e3ae0e093978fb921935b3c575f11d7a76c3c66b2c1df8…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+42,151.101.240.81,192.168.1.12,6,TLS,1442,79,2023-03-30 22:49:20.085717,1680209360.085717205,443,37864,0x0010,15748,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5ca99d4ab81f512cf9bb71fbab4e715f3e75eebe2ffe2e4c51d4329e3287279f075e2836…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+43,151.101.240.81,192.168.1.12,6,TLS,1442,80,2023-03-30 22:49:20.085858,1680209360.085858163,443,37864,0x0018,17124,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c1c3c30e8c45ef2759fd55238bdedf41531a5944c6bf3d0e8f7224077c1266af91e0b4a2…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+44,151.101.240.81,192.168.1.12,6,TLS,1442,82,2023-03-30 22:49:20.093233,1680209360.093232890,443,37864,0x0010,18500,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 80d5b5907d1596101b53533633aa1e90ae63c4a8bc901ed2f3b5301c6b02657434b48e91…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+45,151.101.240.81,192.168.1.12,6,TLS,1442,83,2023-03-30 22:49:20.093359,1680209360.093358485,443,37864,0x0018,19876,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: a4f23b1505c76fcd7f3c39a4490e3d177ab4e89d4b5f900c5205779a2c7dd4427d3c6e18…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+46,151.101.240.81,192.168.1.12,6,TLS,2818,85,2023-03-30 22:49:20.099011,1680209360.099011277,443,37864,0x0018,21252,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1267
+	Encrypted Application Data: 09779ffead8b1c514c77f3e8a233d1ec5b0f96400fc0392818b1059039c0abb56d82ccb6…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+47,151.101.240.81,192.168.1.12,6,TLS,2818,87,2023-03-30 22:49:20.104095,1680209360.104094799,443,37864,0x0018,24004,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 717f7b39dffdfe70a707ce9389198d2441e74381b1bb7adf5aa2faddd65c7ccba2682918…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+48,151.101.240.81,192.168.1.12,6,TLS,2818,89,2023-03-30 22:49:20.108538,1680209360.108538381,443,37864,0x0018,26756,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: da8f9b2657aea0a4f1ad0907983a8c3d88b4c3b07bca2fe4bb73c2c4683f7028203fb6ee…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+49,151.101.240.81,192.168.1.12,6,TLS,2818,91,2023-03-30 22:49:20.112424,1680209360.112424075,443,37864,0x0018,29508,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 9aebe82e0e4e2ea3e66fb8e4003c5af2f5bc7171e96cf027040a225bfe3f6807c462eedd…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+50,151.101.240.81,192.168.1.12,6,TLS,2818,93,2023-03-30 22:49:20.115738,1680209360.115737708,443,37864,0x0018,32260,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 7cff81118d8dec3562194ba13daeeed85cd8eb131f7b89ddf5023e8ed436ebedc91717b1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+51,151.101.240.81,192.168.1.12,6,TLS,2818,95,2023-03-30 22:49:20.118827,1680209360.118827204,443,37864,0x0018,35012,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4c284371077ea4e8788cb7beb1513897f09d3d6e5db71b86d7e5a7f8c2547b53949917f7…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+52,151.101.240.81,192.168.1.12,6,TLS,1442,97,2023-03-30 22:49:20.121400,1680209360.121399778,443,37864,0x0010,37764,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 842f7a2e5f67ffd5600f95e163b9ff8b03388155270e639fa71657d3fddb65f34485c677…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+53,151.101.240.81,192.168.1.12,6,TLS,1442,98,2023-03-30 22:49:20.121523,1680209360.121523083,443,37864,0x0018,39140,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 9e68945f4d09a9f24afc31a922f26158365669c3a0de51e6a894a67ff9a20bbbf622ce4d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+54,151.101.240.81,192.168.1.12,6,TLS,2818,100,2023-03-30 22:49:20.123781,1680209360.123781294,443,37864,0x0018,40516,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5703a8f709af6fad238c6da1de2bc603537e36834a3f2e6536c35687d720003ae1fd6d31…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+55,151.101.240.81,192.168.1.12,6,TLS,2818,102,2023-03-30 22:49:20.126166,1680209360.126166016,443,37864,0x0018,43268,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 72fcf8570203c01773c6ef1f0fc307e40b8d53c4453c2c99bc6f94860ad9b29e9757881a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+56,151.101.240.81,192.168.1.12,6,TLS,2818,104,2023-03-30 22:49:20.128247,1680209360.128246479,443,37864,0x0018,46020,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: b316ef55e29b4fa31833e81dc0a8b62783c14a17656de6ec93e5a6cef6b0fe87a255034c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+57,151.101.240.81,192.168.1.12,6,TLS,2818,106,2023-03-30 22:49:20.129916,1680209360.129915668,443,37864,0x0018,48772,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 7151597f547bc2cf316be974a1665ec2a104689a7da3ff3067fb068841ae4d92c76e9800…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+58,151.101.240.81,192.168.1.12,6,TLS,1442,108,2023-03-30 22:49:20.131669,1680209360.131668862,443,37864,0x0010,51524,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: b3658b510a931c3b60ba3c10f514abeb4df3a1703a24d0f60e9242c74a34dbaa5eaa2f05…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+59,151.101.240.81,192.168.1.12,6,TLS,2818,109,2023-03-30 22:49:20.132316,1680209360.132315652,443,37864,0x0018,52900,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4acd5224eb03c57cbabcd7f7a2f9b64256fe0204128e28f90542ab5ca6679cf39f84b59b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+60,151.101.240.81,192.168.1.12,6,TLS,2818,111,2023-03-30 22:49:20.133798,1680209360.133797530,443,37864,0x0018,55652,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 8cba6a948c921f9448dff032d47358f5d4a1c1133f826c6e390885133db5b1708d0642c1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+61,151.101.240.81,192.168.1.12,6,TLS,2818,113,2023-03-30 22:49:20.134939,1680209360.134939540,443,37864,0x0018,58404,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: b59367b68589f5fa8331a2b38d16d33c006d4b3d067421cfb9a08fd2eebebcb638e05884…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+62,151.101.240.81,192.168.1.12,6,TLS,2818,115,2023-03-30 22:49:20.136121,1680209360.136120446,443,37864,0x0018,61156,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 04beacad5751d958fb8d9c53b37cb08c2f62ab3307c781e884e052c450a3a302d96b82de…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+63,151.101.240.81,192.168.1.12,6,TLS,2818,117,2023-03-30 22:49:20.137118,1680209360.137118342,443,37864,0x0018,63908,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 06b95c46eabdcd844e739b86c5edbc5f0bb4cb196e2b7d789eec97aab3c95b6f56dea563…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+64,151.101.240.81,192.168.1.12,6,TLS,1771,119,2023-03-30 22:49:20.138155,1680209360.138154787,443,37864,0x0018,66660,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5656e46de255e3847d438adba300b11dddfa65aea8d1f04cc4bd90515d529f0be374f23c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+65,151.101.240.81,192.168.1.12,6,TLS,90,123,2023-03-30 22:49:20.141760,1680209360.141759611,443,37864,0x0018,68365,749,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 19
+	Encrypted Application Data: a40fc8ed7d3cc17cf7c0d388d1f8ff7b57531d
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+66,192.168.1.12,192.168.1.1,17,DNS,89,124,2023-03-30 22:49:20.141850,1680209360.141849878,,,,,,,0x8ba6,0,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+67,192.168.1.1,192.168.1.12,17,DNS,89,127,2023-03-30 22:49:20.143090,1680209360.143090405,,,,,,,0x8ba6,1,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+68,192.168.1.12,151.101.240.81,6,TLS,583,131,2023-03-30 22:49:20.231312,1680209360.231311446,37878,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 5eec6a417a084443e5992a19a22789cf22becc4fc3191f903ee591a5d0b8144a
+	GMT Unix Time: Jun 19, 2020 09:33:21.000000000 CEST
+	Random Bytes: 7a084443e5992a19a22789cf22becc4fc3191f903ee591a5d0b8144a
+	Session ID Length: 32
+	Session ID: e1822c4a2ede4271294144b4ea9e8b1ad8ff73a0237656726505e88085ae2f63
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=18)
+	Type: server_name (0)
+	Length: 18
+	Server Name list length: 16
+	Server Name Type: host_name (0)
+	Server Name length: 13
+	Server Name: www.bbc.co.uk
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 80efdaaa8190a82c060b55fafdc6e32c32e3f3a68aab46dadbf1044fb3248665
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=159)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 159
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+69,216.239.38.180,192.168.1.12,6,TLS,583,132,2023-03-30 22:49:20.401083,1680209360.401083420,443,51730,0x0018,4930,3290,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 512
+	Encrypted Application Data: d6993a0c6ebaec4e511b5164f938a7993433c17a3f6d0d8ae60c436dd35cc25f24fbaad9…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+70,216.239.38.180,192.168.1.12,6,TLS,100,133,2023-03-30 22:49:20.401866,1680209360.401866066,443,51730,0x0018,5447,3290,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 29
+	Encrypted Application Data: 2fa7c6f3962c7f72525e07cfb734f096023bddd7096e2e55f70083465c
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+71,216.239.38.180,192.168.1.12,6,TLS,97,135,2023-03-30 22:49:20.402235,1680209360.402235254,443,51730,0x0018,5481,3290,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: 173b2193d592823713024db410f3df8d86c2641ee78dca338f2b
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+72,216.239.38.180,192.168.1.12,6,TLS,105,136,2023-03-30 22:49:20.402592,1680209360.402592450,443,51730,0x0018,5512,3290,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 4975b8ff484c62ff8c04e6a7307aa03757a13aa5dddd7332d6c1b66e2a2d0facc33d
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+73,192.168.1.12,216.239.38.180,6,TLS,105,138,2023-03-30 22:49:20.403086,1680209360.403086381,51730,443,0x0018,3290,5551,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: eb3ff9e443d2c13ec1430005184d2573ad39c87b3d6d4fceb1d93b5f51d38ea9c11f
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+74,192.168.1.12,216.239.38.180,6,TLS,101,139,2023-03-30 22:49:20.403168,1680209360.403168029,51730,443,0x0018,3329,5551,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 30
+	Encrypted Application Data: 291776e62ebd7da46a5aa1441a60c81f4f32f224e73d03a60ef1ea18be70
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+75,192.168.1.12,216.239.38.180,6,TLS,435,140,2023-03-30 22:49:20.406424,1680209360.406423948,51730,443,0x0018,3364,5551,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 364
+	Encrypted Application Data: ea2a13c2492c59b908a73218fcb7fedfea093864a4f4d0a123c56d7d72f66e26868917ea…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+76,216.239.38.180,192.168.1.12,6,TLS,583,143,2023-03-30 22:49:20.437686,1680209360.437686151,443,51730,0x0018,5551,3733,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 512
+	Encrypted Application Data: a048a841567f009775b5ed5636a1ef96545e6411d42a93b2151c97dac01d1c3a4c83bcc4…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+77,216.239.38.180,192.168.1.12,6,TLS,99,144,2023-03-30 22:49:20.437902,1680209360.437902187,443,51730,0x0018,6068,3733,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 28
+	Encrypted Application Data: 827dd133451a891fd50bac2644b6f08af35c1ca13e384bd7c60d5b38
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+78,216.239.38.180,192.168.1.12,6,TLS,97,146,2023-03-30 22:49:20.439050,1680209360.439050527,443,51730,0x0018,6101,3733,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: 9f1994c41858e1af9fe9593394c9d58a12a8847a652323a5a430
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+79,216.239.38.180,192.168.1.12,6,TLS,105,147,2023-03-30 22:49:20.439336,1680209360.439336353,443,51730,0x0018,6132,3733,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: c3177d32e85d9da6ef45a88b25173880d3ca322a0b6e3c3585050566df068d90a906
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+80,192.168.1.12,216.239.38.180,6,TLS,105,149,2023-03-30 22:49:20.439725,1680209360.439724842,51730,443,0x0018,3733,6171,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: fc34a18f1b165eaf3d69006e3129b0c71f7ecaa97d9b2e717219700f509550ed61c8
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+81,151.101.240.81,192.168.1.12,6,TLS,1442,153,2023-03-30 22:49:20.450468,1680209360.450468062,443,37878,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 070a59632d5cf098ab4d88cc34a0f741d94e91ae434e070013e586410e7468c1
+	Session ID Length: 32
+	Session ID: e1822c4a2ede4271294144b4ea9e8b1ad8ff73a0237656726505e88085ae2f63
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+	Supported Version: TLS 1.3 (0x0304)
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: d79b3fadfab0136983c5da7e75945c0cb18a205cf6a5e3f4aa5eed6dafe8234e
+	JA3S Fullstring: 771,4865,43-51
+	JA3S: f4febc55ea12b31ae17cfb7e614afda8
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: f86946d1992dc875c5faeddab63b95baa54f6e7cebb10b3dea16fbaf8c002b5ad846acbd…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Length: 42
+	Extension: key_share (len=36)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Type: key_share (51)
+	Length: 36
+",,,,,,,,,
+82,151.101.240.81,192.168.1.12,6,TLS,677,159,2023-03-30 22:49:20.451351,1680209360.451350679,443,37878,0x0018,4129,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4011
+	Encrypted Application Data: 5f13b6010d352939d290775e140d17ed0bcc3d256854d696711c7a3a97ce8a4ba7cedcfb…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+83,192.168.1.12,151.101.240.81,6,TLS,130,161,2023-03-30 22:49:20.453152,1680209360.453152113,37878,443,0x0018,518,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 816c80b07fb94145182792f05e33517d32345758de8d3e1ce6f37c78ae17d3f6424bc6f3…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 53
+",,,,,,,,,
+84,192.168.1.12,151.101.240.81,6,TLS,232,162,2023-03-30 22:49:20.453408,1680209360.453408437,37878,443,0x0018,582,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 161
+	Encrypted Application Data: a7fdc2a74cf9734cb32f7fc015a1185a1e5c93ca66493032888dd04a4a0bd101b4473728…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+85,151.101.240.81,192.168.1.12,6,TLS,1442,165,2023-03-30 22:49:20.461547,1680209360.461546831,443,37878,0x0010,4740,748,"Layer TLS:
+",,,,,,,,,
+86,151.101.240.81,192.168.1.12,6,TLS,1442,166,2023-03-30 22:49:20.461730,1680209360.461729773,443,37878,0x0018,6116,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: eccdfa09a316e10fe21929f585fd630984fd47173848afaca5ca25091284f1af3017cbb2…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+87,151.101.240.81,192.168.1.12,6,TLS,1442,168,2023-03-30 22:49:20.462167,1680209360.462166453,443,37878,0x0010,7492,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f15cbb3acc91e33ae6687673c4c039e322c5ee35859862f62b4fc0147fa892e967b8c501…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+88,151.101.240.81,192.168.1.12,6,TLS,203,169,2023-03-30 22:49:20.462328,1680209360.462328341,443,37878,0x0018,8868,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 91a354517982fe7d36f891d2e2cab31d1d901e03768cbe176fc814238b658d37df7bfc75…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+89,151.101.240.81,192.168.1.12,6,TLS,1442,171,2023-03-30 22:49:20.462552,1680209360.462551819,443,37878,0x0010,9005,748,"Layer TLS:
+",,,,,,,,,
+90,151.101.240.81,192.168.1.12,6,TLS,1442,172,2023-03-30 22:49:20.463006,1680209360.463006292,443,37878,0x0018,10381,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 24411397435898e8b3acc2f7d218ded672b5b9414e1c3a610c95907f504ec6a18e700934…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+91,151.101.240.81,192.168.1.12,6,TLS,1442,174,2023-03-30 22:49:20.467632,1680209360.467631858,443,37878,0x0010,11757,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 0fa0299ef3a694835d83cfc3c697674049ad285630225fe2a77bd4791ad9fea764c5309b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+92,151.101.240.81,192.168.1.12,6,TLS,1442,175,2023-03-30 22:49:20.468070,1680209360.468069441,443,37878,0x0018,13133,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 26b7994886d9902697958fcd252bc674bfb9572f2673e466443c792fd7bfe372e56f6013…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+93,151.101.240.81,192.168.1.12,6,TLS,1442,177,2023-03-30 22:49:20.473518,1680209360.473518235,443,37878,0x0010,14509,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 9e8628c835395a61fce6b0454d19836b4192e90f293068411bdd9fa639e29abb7db6cf96…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+94,151.101.240.81,192.168.1.12,6,TLS,1442,178,2023-03-30 22:49:20.473778,1680209360.473777943,443,37878,0x0018,15885,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 76da274274b929ed013532420abdd7a0dab4f9e7bfecd8038a80829f60f1a06232506b1a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+95,151.101.240.81,192.168.1.12,6,TLS,1442,180,2023-03-30 22:49:20.480498,1680209360.480498428,443,37878,0x0010,17261,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f30ee6298157abd1b7f593d81ac99eb683aa85e4b2dd2e590870e4f0c3c98e20489ec30e…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+96,151.101.240.81,192.168.1.12,6,TLS,1442,181,2023-03-30 22:49:20.480630,1680209360.480630013,443,37878,0x0018,18637,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 8f913a8ee747959bec6c83f2c5d5c7094668716a7bffd31807f513714a82928427eb223d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+97,151.101.240.81,192.168.1.12,6,TLS,1442,183,2023-03-30 22:49:20.483861,1680209360.483861237,443,37878,0x0010,20013,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6913b50bea774886da8f12f4a7cb8c3da61ec7424da5b7ebb51972b0c49cfd0103496184…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+98,151.101.240.81,192.168.1.12,6,TLS,1442,184,2023-03-30 22:49:20.484047,1680209360.484047338,443,37878,0x0018,21389,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: e079d202e4d38be2868a450588a7f68bbc520608a5961ec5339cb5ff1467951802010583…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+99,151.101.240.81,192.168.1.12,6,TLS,1442,186,2023-03-30 22:49:20.487014,1680209360.487013890,443,37878,0x0010,22765,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: fcb167233aedd2d09d6145d2f5e1e844ac58b54a261ba155c4c474c674f1ab484065950f…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+100,151.101.240.81,192.168.1.12,6,TLS,1442,187,2023-03-30 22:49:20.487300,1680209360.487299905,443,37878,0x0018,24141,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 8d2c8b2ffe536c2798b211944f964ae6d7eb43ce9cfb5a3771c942b1791091510a45ff94…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+101,151.101.240.81,192.168.1.12,6,TLS,1442,189,2023-03-30 22:49:20.490567,1680209360.490567013,443,37878,0x0010,25517,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 1c0d19cd766ba36949374a2d39438ceabf55b44deacc2e19507d0eb59b2cbeb07f037745…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+102,151.101.240.81,192.168.1.12,6,TLS,1442,190,2023-03-30 22:49:20.490753,1680209360.490752637,443,37878,0x0018,26893,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 85163ef7c815f52a87a3df5904cc27bda035b6fcc4ebb02ea1816d25282d27650f920aea…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+103,151.101.240.81,192.168.1.12,6,TLS,1442,192,2023-03-30 22:49:20.493428,1680209360.493427851,443,37878,0x0010,28269,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f3c2cf948dacae1dea868480210b523eb25e3309b26be694614684a92bf469a9fd2ee3ce…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+104,151.101.240.81,192.168.1.12,6,TLS,1442,193,2023-03-30 22:49:20.493713,1680209360.493713104,443,37878,0x0018,29645,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 976d301d2af001ae88db8406165d1d10dee22dbd8c80f821ca14107a28aa0dc1db99e5ae…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+105,151.101.240.81,192.168.1.12,6,TLS,1442,195,2023-03-30 22:49:20.496152,1680209360.496152270,443,37878,0x0010,31021,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6b58e0962368125e120699cecf8c18a90114bfc41d23ee13ae4d1f08d28b94172abec93a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+106,151.101.240.81,192.168.1.12,6,TLS,1442,196,2023-03-30 22:49:20.496424,1680209360.496423894,443,37878,0x0018,32397,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f4995989fd5bd671affb7920b52ce819c025b16046135a4b420aa571f721c83d12f9db41…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+107,151.101.240.81,192.168.1.12,6,TLS,1442,198,2023-03-30 22:49:20.498971,1680209360.498971437,443,37878,0x0010,33773,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 1a6b1c5d643b6bbc75a81342b60900fecdae8fed0b06aeee7e9e754192a48b4f7d82cfe2…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+108,151.101.240.81,192.168.1.12,6,TLS,1442,199,2023-03-30 22:49:20.499444,1680209360.499443612,443,37878,0x0018,35149,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5dd0b44e3ad5d5f634a401dcc3a378ee2308ef1cdbc0c459fa97ec0c24043659affc8d47…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+109,151.101.240.81,192.168.1.12,6,TLS,1442,201,2023-03-30 22:49:20.500853,1680209360.500852593,443,37878,0x0010,36525,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f62fba9fa318189ce0d33fcc8bc372d8c61f57e7c1c087b9a30cedfc5e10879529e1e326…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+110,151.101.240.81,192.168.1.12,6,TLS,1442,202,2023-03-30 22:49:20.501128,1680209360.501128289,443,37878,0x0018,37901,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c914d550ef8dd14c4809d667dafaf1abcc940a2700f7c65c80c4b138fd4691ba7faf330b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+111,151.101.240.81,192.168.1.12,6,TLS,1442,204,2023-03-30 22:49:20.502545,1680209360.502544969,443,37878,0x0010,39277,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 2d45b15bf56ef385582a483e17775b6c6f225966de68349a4139c5565558e83f3af3f986…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+112,151.101.240.81,192.168.1.12,6,TLS,1442,205,2023-03-30 22:49:20.502903,1680209360.502903247,443,37878,0x0018,40653,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4d6f1112922ad1539f866002f3cba81d9b4c3375c81f6579e101a90e29c7a53277fc6f8b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+113,151.101.240.81,192.168.1.12,6,TLS,1442,207,2023-03-30 22:49:20.504914,1680209360.504913817,443,37878,0x0010,42029,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: af8a8d539dc2e7705e65b0698f9345f071d84920d9b69ead076b7bcb7a3819ad5363be76…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+114,151.101.240.81,192.168.1.12,6,TLS,1442,208,2023-03-30 22:49:20.505316,1680209360.505315554,443,37878,0x0018,43405,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6929b0067edfb433e7bab6b6c5bbff90940c84035d4a6ea57d7b36440dde27c42292c3b8…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+115,151.101.240.81,192.168.1.12,6,TLS,1442,210,2023-03-30 22:49:20.505784,1680209360.505783984,443,37878,0x0018,44781,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: b9778778dedddac11041e4d18f9258e52596f3e121385b3ae673ad73eabd25c1bc89d613…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+116,151.101.240.81,192.168.1.12,6,TLS,1442,211,2023-03-30 22:49:20.506314,1680209360.506313493,443,37878,0x0010,46157,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: eb1ae850e0da59d6bd3e36d8db4cdac79caa7c9d53cf2aaac248fbd8b2e81ae129fe3a35…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+117,151.101.240.81,192.168.1.12,6,TLS,1442,213,2023-03-30 22:49:20.507032,1680209360.507031668,443,37878,0x0018,47533,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: a1a4dcd3186bb08b3f859b87dd82a8b2f86e0fd9b91c70f8ea55bc3732bed110b39a8e70…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+118,151.101.240.81,192.168.1.12,6,TLS,2818,214,2023-03-30 22:49:20.507984,1680209360.507983780,443,37878,0x0018,48909,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 83d3882b95f9afaf1f7b9c17b9c05eea02b79b3d14b3b46cf059fc36e537538dc69d19fd…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+119,151.101.240.81,192.168.1.12,6,TLS,1442,216,2023-03-30 22:49:20.509092,1680209360.509091532,443,37878,0x0010,51661,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: fca762d49c1e883ec39c940aa8c156e9f7ee75d346af41d935820b9d217c002b29464178…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+120,151.101.240.81,192.168.1.12,6,TLS,1442,217,2023-03-30 22:49:20.509465,1680209360.509464412,443,37878,0x0018,53037,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5f2fdb0b1050a0935b7339d7914255661dc1c9954bd490459ae80090286ba183b8fdd517…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+121,151.101.240.81,192.168.1.12,6,TLS,1442,219,2023-03-30 22:49:20.510478,1680209360.510478548,443,37878,0x0010,54413,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: cf3e0f996239aa0a6b6cd7f1559b65aa19b698b00070652ef9ef14e4d2d33d90f1b20521…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+122,151.101.240.81,192.168.1.12,6,TLS,1442,220,2023-03-30 22:49:20.511098,1680209360.511098503,443,37878,0x0018,55789,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4c037ae88cd27f51d5bc40147709bc673f223784c237674209a0265f60294cc178ccf1eb…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+123,151.101.240.81,192.168.1.12,6,TLS,1442,222,2023-03-30 22:49:20.511873,1680209360.511872768,443,37878,0x0010,57165,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6c97473d34681e15a7d5f0c7b0e19da4931e087840a8a8975005f15d84a7622506071028…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+124,151.101.240.81,192.168.1.12,6,TLS,1442,223,2023-03-30 22:49:20.512082,1680209360.512082411,443,37878,0x0018,58541,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: d7214b563c5d0a10aff056e09f8d90037dbea51658a0cc6c5ec11c70eb613a830c0ad3cc…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+125,151.101.240.81,192.168.1.12,6,TLS,1442,225,2023-03-30 22:49:20.512965,1680209360.512965297,443,37878,0x0010,59917,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 28fbffb24a1245408d3f166661eb78b0637faa10fd9b1b60e69b8f9a23ca957d16d0cf98…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+126,151.101.240.81,192.168.1.12,6,TLS,1442,226,2023-03-30 22:49:20.513421,1680209360.513421191,443,37878,0x0018,61293,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 2c426dde2e16add6b70f6aacdf6ba371ab4ea6479dcf20856cfdc95b4ff84408ea9606b8…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+127,151.101.240.81,192.168.1.12,6,TLS,1442,228,2023-03-30 22:49:20.513547,1680209360.513546962,443,37878,0x0010,62669,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: a9e2bb2566c98cf1676dd741be5d2affe96584e3bb26eb0f3f9e85942fd48585513dcdb2…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+128,151.101.240.81,192.168.1.12,6,TLS,1442,229,2023-03-30 22:49:20.514057,1680209360.514056823,443,37878,0x0010,64045,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5726d4f663dd7cc36f6607a0d04e58f5a4f5b2da5bf0baf09211dbddc53f26080e441372…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+129,151.101.240.81,192.168.1.12,6,TLS,1442,231,2023-03-30 22:49:20.514386,1680209360.514386098,443,37878,0x0018,65421,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 42d72b95afdc0057549009398b5468551b7afd07b5d2b50345e177fb59a9e797def830a5…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+130,151.101.240.81,192.168.1.12,6,TLS,1442,232,2023-03-30 22:49:20.514386,1680209360.514386141,443,37878,0x0010,66797,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c513c9bde88b41c3a73e75f2e9c2847d225dd0ebcd96ee142be99ccf2fa173d807d36d7f…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+131,151.101.240.81,192.168.1.12,6,TLS,251,234,2023-03-30 22:49:20.514813,1680209360.514812975,443,37878,0x0018,68173,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 548
+	Encrypted Application Data: ef104a1ffa8488d329b35e7c9827c8056ff36177fc4d6535b082e914ab9e5e9e019a58bb…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+132,192.168.1.12,192.168.1.1,17,DNS,89,236,2023-03-30 22:49:20.518874,1680209360.518874071,,,,,,,0x8e0e,0,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+133,192.168.1.1,192.168.1.12,17,DNS,89,238,2023-03-30 22:49:20.520028,1680209360.520028361,,,,,,,0x8e0e,1,bbc.map.fastly.net,<Root>,28,0x0001,1,0,0
+134,151.101.240.81,192.168.1.12,6,TLS,90,239,2023-03-30 22:49:20.520202,1680209360.520201645,443,37878,0x0018,68358,749,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 19
+	Encrypted Application Data: bca863cb38e01f2c12e0630ba391562e7700ee
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+135,192.168.1.12,151.101.240.81,6,TLS,583,246,2023-03-30 22:49:20.604539,1680209360.604539157,37892,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 63ba4dd6f4ac9b218243cd40489e0e6a881eacd48d57ec84c8857bbdea4b4c8c
+	GMT Unix Time: Jan  8, 2023 06:00:06.000000000 CET
+	Random Bytes: f4ac9b218243cd40489e0e6a881eacd48d57ec84c8857bbdea4b4c8c
+	Session ID Length: 32
+	Session ID: 8b8d74e8df1cc6d83df45688eaae109758b0dde51993840ecf4728f33781cd2f
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=18)
+	Type: server_name (0)
+	Length: 18
+	Server Name list length: 16
+	Server Name Type: host_name (0)
+	Server Name length: 13
+	Server Name: www.bbc.co.uk
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: c105601d658a37e7fcc2ea24f7655c1e9f478fce8eb6c07710708370ab3ff43e
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=159)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 159
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+136,151.101.240.81,192.168.1.12,6,TLS,1442,249,2023-03-30 22:49:20.830982,1680209360.830981939,443,37892,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 009511c315e7ec96af8c29bc2df2f7e354c26f4f19cbe2b1d8ac71f85e0e2294
+	Session ID Length: 32
+	Session ID: 8b8d74e8df1cc6d83df45688eaae109758b0dde51993840ecf4728f33781cd2f
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+	Supported Version: TLS 1.3 (0x0304)
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 6af10b27c3efe3421e4639458a0658a149d50a4a23e613573ab6479d4f4ff870
+	JA3S Fullstring: 771,4865,43-51
+	JA3S: f4febc55ea12b31ae17cfb7e614afda8
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 4d108fd12fca33ff79da201e9b289a93a3c5ad1d3ecd5a330952dce80546c121ceac023a…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Length: 42
+	Extension: key_share (len=36)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Type: key_share (51)
+	Length: 36
+",,,,,,,,,
+137,151.101.240.81,192.168.1.12,6,TLS,677,255,2023-03-30 22:49:20.831510,1680209360.831510402,443,37892,0x0018,4129,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4011
+	Encrypted Application Data: 4b25a740dec60f71a8bab43d569db3870250d955c74d3587b2f4960a5d9ec872cfb4a8cc…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+138,192.168.1.12,151.101.240.81,6,TLS,130,257,2023-03-30 22:49:20.833246,1680209360.833245619,37892,443,0x0018,518,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 6bfa268599fdeb6d2411750406ac6f5f257a5e298a38c69eb3a91382c453a59621d3adc3…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 53
+",,,,,,,,,
+139,192.168.1.12,151.101.240.81,6,TLS,232,258,2023-03-30 22:49:20.833498,1680209360.833497820,37892,443,0x0018,582,4740,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 161
+	Encrypted Application Data: eb5c9540addc95930af2ff092ac7e980bb05a652058d1764b811ce6a70461b02d3d08d07…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+140,151.101.240.81,192.168.1.12,6,TLS,1442,261,2023-03-30 22:49:20.841038,1680209360.841038466,443,37892,0x0010,4740,748,"Layer TLS:
+",,,,,,,,,
+141,151.101.240.81,192.168.1.12,6,TLS,1442,262,2023-03-30 22:49:20.841233,1680209360.841232969,443,37892,0x0018,6116,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5979f128b25cabd9b82cbee5939588faf831ce158395abc076088193a075863ade4450d9…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+142,151.101.240.81,192.168.1.12,6,TLS,1442,264,2023-03-30 22:49:20.841400,1680209360.841400160,443,37892,0x0010,7492,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 775df2d50f5269d240e26d54dbd0b8727c8ac1c37117f7eabf93a6b55fdd1917c215de9d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+143,151.101.240.81,192.168.1.12,6,TLS,1442,265,2023-03-30 22:49:20.841585,1680209360.841585193,443,37892,0x0018,8868,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 2da00e44fbc0e342cc472513222452889a3af9d3e17f125fea2d0c4263df7e1bcf60eba3…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+144,151.101.240.81,192.168.1.12,6,TLS,1442,267,2023-03-30 22:49:20.841904,1680209360.841904285,443,37892,0x0010,10244,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5deadfbcbd05cc478bcce181c6cda36e809120098d39ab871c6ade1a99b25400fbd96b11…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+145,151.101.240.81,192.168.1.12,6,TLS,1442,268,2023-03-30 22:49:20.842323,1680209360.842323108,443,37892,0x0018,11620,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 64cf0a1f935a7ea6f50c19d5fc7992f1cf3884d70f491be7c7b8abcf49ab449aa5b75cf1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+146,151.101.240.81,192.168.1.12,6,TLS,1442,270,2023-03-30 22:49:20.846963,1680209360.846962603,443,37892,0x0010,12996,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 779f58a1cc2a703c6b38aa7007ede46347fa67e98c864169efb1ea741225bf1e0494b3a5…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+147,151.101.240.81,192.168.1.12,6,TLS,1442,271,2023-03-30 22:49:20.847160,1680209360.847160183,443,37892,0x0018,14372,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5a4df6bf963b89058ab84476688ed312f44c6d14a12e0dea1e20a95733ea823c990ad7d2…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+148,151.101.240.81,192.168.1.12,6,TLS,1442,273,2023-03-30 22:49:20.852715,1680209360.852714603,443,37892,0x0010,15748,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 13429318705417a19c04e7a475d4822dc5697288fc83f9e46e0ac3cde67bfebfa39a68d5…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+149,151.101.240.81,192.168.1.12,6,TLS,1442,274,2023-03-30 22:49:20.853113,1680209360.853112825,443,37892,0x0018,17124,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6c2af0d2d830fa3b46e9a0beb8e277918da3bd4d55112560be0603fdeefaebe13686aa35…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+150,151.101.240.81,192.168.1.12,6,TLS,1442,276,2023-03-30 22:49:20.858595,1680209360.858594676,443,37892,0x0010,18500,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: cb4d73f065627139baf832bc17e036b6e6b7aed2d6372d9d6a70235616c595ab7ca016ce…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+151,151.101.240.81,192.168.1.12,6,TLS,1442,277,2023-03-30 22:49:20.858781,1680209360.858780855,443,37892,0x0018,19876,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f1c7ae6839418efb50d4273bd9ebd3f3323261758cec8ad9315561fd28765c8f9bcc14f0…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+152,151.101.240.81,192.168.1.12,6,TLS,1442,279,2023-03-30 22:49:20.862502,1680209360.862501859,443,37892,0x0010,21252,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1273
+	Encrypted Application Data: c6da97106e807f5c00a695c79507e108bfa377542a2d46f232e9ece4297151a4c5f185ac…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+153,151.101.240.81,192.168.1.12,6,TLS,1442,280,2023-03-30 22:49:20.862996,1680209360.862995692,443,37892,0x0018,22628,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 30e0f954a4432d2d2182e35f292b089d90f0a48230248a47c498e6e27936bc5ecbf25079…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+154,151.101.240.81,192.168.1.12,6,TLS,1442,282,2023-03-30 22:49:20.866103,1680209360.866103506,443,37892,0x0010,24004,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: eced417b68a874d6d26caf9e2ba25aa328717258a80d5a51508f2056adf79acb7d955fcc…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+155,151.101.240.81,192.168.1.12,6,TLS,1442,283,2023-03-30 22:49:20.866313,1680209360.866312795,443,37892,0x0018,25380,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 639e68ae98ee68e536dd72639692fb3cba5924f4c210c5173da21b7eb6e96ee90be406ff…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+156,151.101.240.81,192.168.1.12,6,TLS,1442,285,2023-03-30 22:49:20.868956,1680209360.868956392,443,37892,0x0010,26756,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c1010bd8f2cd442487694ced897724f32ebea02547d0853c86d98d318b24364d9f3881ef…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+157,151.101.240.81,192.168.1.12,6,TLS,1442,286,2023-03-30 22:49:20.869261,1680209360.869261133,443,37892,0x0018,28132,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 95048f937d8faab4ef3123a04ca29d62c8132014b4383de1d8cdf2f47c5657c8b6e07142…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+158,151.101.240.81,192.168.1.12,6,TLS,1442,288,2023-03-30 22:49:20.871850,1680209360.871849712,443,37892,0x0010,29508,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 16461374bd8f39e307244e6777634904354f452a107017c5e116f37dfcb7c418877c8e91…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+159,151.101.240.81,192.168.1.12,6,TLS,1442,289,2023-03-30 22:49:20.872096,1680209360.872095539,443,37892,0x0018,30884,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 38d4a41db562aeba32c2affc21f71342e8f0047a7da32843b0045e21604a8877413c59f8…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+160,151.101.240.81,192.168.1.12,6,TLS,1442,291,2023-03-30 22:49:20.874533,1680209360.874533381,443,37892,0x0010,32260,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 0be945d60a6f4bb4a27ca9559a2eacb7407656eca6d6373835e85cad93aa9516c72844e1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+161,151.101.240.81,192.168.1.12,6,TLS,1442,292,2023-03-30 22:49:20.874799,1680209360.874799408,443,37892,0x0018,33636,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 9450ababd0942fd72499bb201a34d708542446d7491527c3f8435b2dee54b3144c16272f…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+162,151.101.240.81,192.168.1.12,6,TLS,1442,294,2023-03-30 22:49:20.876953,1680209360.876953002,443,37892,0x0010,35012,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: ab917391aff3412687ab2a846e47c7849e1fb466dc4740946125a52d983f65b001c3b2b0…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+163,151.101.240.81,192.168.1.12,6,TLS,1442,295,2023-03-30 22:49:20.877095,1680209360.877095063,443,37892,0x0018,36388,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 71dd6e15d88bcc718e9c0155628e575141ea9d30584bcff16f7af82e88a8162654a52e94…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+164,151.101.240.81,192.168.1.12,6,TLS,1442,297,2023-03-30 22:49:20.878860,1680209360.878859930,443,37892,0x0010,37764,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: d044f7f99dfd34e0aff8c5589e9838f5d6395a90bbb1f08e25e420eae91d937558ce4181…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+165,151.101.240.81,192.168.1.12,6,TLS,1442,298,2023-03-30 22:49:20.879234,1680209360.879234239,443,37892,0x0018,39140,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 48344459bded9fe08a6148214fe7c23dbe5526738b29f61dc51b78bc1b04deed036fa775…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+166,151.101.240.81,192.168.1.12,6,TLS,1442,300,2023-03-30 22:49:20.881085,1680209360.881084824,443,37892,0x0010,40516,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 364336bec92e6920f42f94c0aa75b5b7bff3c7ceca90a20552ce21466c932e7c22531d75…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+167,151.101.240.81,192.168.1.12,6,TLS,1442,301,2023-03-30 22:49:20.881281,1680209360.881281453,443,37892,0x0018,41892,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4f0d5fc30c32b0835cff58d24fcf23a01fc6d925ad669685c178c1f204c29ba1d469d333…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+168,151.101.240.81,192.168.1.12,6,TLS,1442,303,2023-03-30 22:49:20.882535,1680209360.882535144,443,37892,0x0010,43268,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 9319805361b3fd440901a684a3bb3c0ca0db2ce2cb3c02ba23137f4ab650e29461cd8d81…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+169,151.101.240.81,192.168.1.12,6,TLS,1442,304,2023-03-30 22:49:20.882794,1680209360.882794049,443,37892,0x0018,44644,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 214175b70d090108c137495f008d9db6278d17f511f3d7f9f5716eb9f3698bdb99926b07…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+170,151.101.240.81,192.168.1.12,6,TLS,1442,306,2023-03-30 22:49:20.883926,1680209360.883926366,443,37892,0x0010,46020,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: cc6747a65771ede3615c8561e002612a4617dd8914ed8a55a94fc9156708026953abbe71…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+171,151.101.240.81,192.168.1.12,6,TLS,1442,307,2023-03-30 22:49:20.884538,1680209360.884538035,443,37892,0x0010,47396,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 866530b8424ae1645271d55c5ab9f538f68c5b10a4bd4cecf3273517088cb542f9fd33a9…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+172,151.101.240.81,192.168.1.12,6,TLS,1442,309,2023-03-30 22:49:20.884678,1680209360.884678376,443,37892,0x0018,48772,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 5200a64e5ba09e364ee8cef5bffd7ade983421e932c20d49697c4c34f8f0225e9c9ec065…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+173,151.101.240.81,192.168.1.12,6,TLS,1442,310,2023-03-30 22:49:20.885939,1680209360.885939200,443,37892,0x0010,50148,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c46e36004411a5f8aa39e413def86d2a5ae3a1af1f1c37f74f9d6044ed923c8cf28bd086…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+174,151.101.240.81,192.168.1.12,6,TLS,1442,312,2023-03-30 22:49:20.886258,1680209360.886257977,443,37892,0x0018,51524,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: c4a4f775461c047b675e31ccfea4f2dbdc79235e3546a69836d2763968f42aaf1a39453b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+175,151.101.240.81,192.168.1.12,6,TLS,1442,313,2023-03-30 22:49:20.887283,1680209360.887283444,443,37892,0x0010,52900,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6654b5963c08c70455e720ef1f371202a970af5ebe1e79c52c272210ec295b4ecb297d64…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+176,151.101.240.81,192.168.1.12,6,TLS,1442,315,2023-03-30 22:49:20.887605,1680209360.887604719,443,37892,0x0018,54276,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: d28b89bd093ff1bf8ab7d2421497689af1d1e79595c796986c2ecbccb31b695af61d1048…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+177,151.101.240.81,192.168.1.12,6,TLS,1442,316,2023-03-30 22:49:20.888534,1680209360.888533758,443,37892,0x0010,55652,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6ab12932929e0e019f45228e1ffe67a638a3887d67f0dca192549d23d5a78300aca89520…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+178,151.101.240.81,192.168.1.12,6,TLS,1442,318,2023-03-30 22:49:20.888822,1680209360.888822199,443,37892,0x0018,57028,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: e0d6ec305e15314622d68c9c7b9eddbfed0c266228b587fd7c294959f0b27c493ab258f6…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+179,151.101.240.81,192.168.1.12,6,TLS,1442,319,2023-03-30 22:49:20.889527,1680209360.889526584,443,37892,0x0010,58404,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: dd82e330a70b7e98cd321341410d32fa2d03e1326a128e52b8ecedce2c0ff0290b65873d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+180,151.101.240.81,192.168.1.12,6,TLS,1442,321,2023-03-30 22:49:20.890678,1680209360.890678295,443,37892,0x0018,59780,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: f3b2242af1b8c8ce0ea0a1d5522980fd20bf4739acb7aee3ee0faecce117ecfb00f9330a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+181,151.101.240.81,192.168.1.12,6,TLS,1442,322,2023-03-30 22:49:20.890926,1680209360.890925725,443,37892,0x0010,61156,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 6f74a8dbb4afe7dca0680e57f308f1dcddaa32c2d41d9aee6fda803168ce54ecffd4a50d…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+182,151.101.240.81,192.168.1.12,6,TLS,1442,324,2023-03-30 22:49:20.891170,1680209360.891170146,443,37892,0x0018,62532,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 59e7aec16db3d7a91f30890f84a84756864670cdbb563b1c43ce8eec93f4f7852d916861…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+183,151.101.240.81,192.168.1.12,6,TLS,1442,325,2023-03-30 22:49:20.891643,1680209360.891642575,443,37892,0x0010,63908,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 744e4b94331248df096f772a7acdea9f29a59ee6f56a4d5a6254bf1b5030cb9c811d3866…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+184,151.101.240.81,192.168.1.12,6,TLS,1442,327,2023-03-30 22:49:20.892005,1680209360.892005354,443,37892,0x0018,65284,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: ff0326f1617b1c38ebe65780a69470b4cab4815901e5424a9c55ce0657b05bb51b352eaa…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+185,151.101.240.81,192.168.1.12,6,TLS,1442,328,2023-03-30 22:49:20.892956,1680209360.892955671,443,37892,0x0010,66660,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 1bbc6182b946fdf87215841fe051a37fce96784a85be95c7a764d6254d6e82a4ba7d3f23…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+186,151.101.240.81,192.168.1.12,6,TLS,388,330,2023-03-30 22:49:20.893315,1680209360.893315416,443,37892,0x0018,68036,748,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 670
+	Encrypted Application Data: f5a23eea556f77dac7e60f9b0a53059838fb9e664c68898913f7b64ab50982b3d98c4153…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+187,151.101.240.81,192.168.1.12,6,TLS,90,333,2023-03-30 22:49:20.897933,1680209360.897932718,443,37892,0x0018,68358,749,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 19
+	Encrypted Application Data: dc8aa69e6dcc903eb21dd2d9d49ee19a947461
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+188,94.182.164.242,192.168.1.12,6,TLS,101,337,2023-03-30 22:49:26.181131,1680209366.181130848,443,39436,0x0018,1,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 30
+	Encrypted Application Data: 4c2f97dd9399aaebeca96dbac89ca7361eb3c576626aa9336f023c118384
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+189,192.168.1.12,94.182.164.242,6,TLS,105,339,2023-03-30 22:49:26.548024,1680209366.548023667,39436,443,0x0018,1,36,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: cde55c33ebc06ed2e2298dcef454fc315e7e9431143cb0a690fc4e730c9f189bcb53
+	Application Data Protocol: http-over-tls
+",,,,,,,,,

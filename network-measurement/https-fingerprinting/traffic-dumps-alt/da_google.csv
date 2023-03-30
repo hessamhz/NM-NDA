@@ -1,0 +1,3022 @@
+,ip.src,ip.dst,ip.proto,highest_layer,length,number,sniff_time,sniff_timestamp,tcp.srcport,tcp.dstport,tcp.flags,tcp.seq,tcp.ack,tls,dns.id,dns.flags.response,dns.qry.name,dns.resp.name,dns.qry.type,dns.qry.class,dns.count.queries,dns.count.answers,dns.count.authority
+0,192.168.1.12,131.175.186.68,6,TLS,576,1,2023-03-30 22:46:32.771231,1680209192.771230775,46314,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 517
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 513
+	Version: TLS 1.2 (0x0303)
+	Random: 133b453ef55fd9dc1eb87ec96fcfe70576b7d310339553656fd1a47c5e3dcf62
+	GMT Unix Time: Mar 23, 1980 10:24:14.000000000 CET
+	Random Bytes: f55fd9dc1eb87ec96fcfe70576b7d310339553656fd1a47c5e3dcf62
+	Session ID Length: 32
+	Session ID: 048b4183d009452cbfa47d0b8f253c618a8e071ae6d4e9a9d5567a963a8e40e2
+	Cipher Suites Length: 32
+	Cipher Suites (16 suites)
+	Cipher Suite: Reserved (GREASE) (0x6a6a)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 408
+	Extension: Reserved (GREASE) (len=0)
+	Type: Reserved (GREASE) (56026)
+	Length: 0
+	Data: <MISSING>
+	Certificate Status Type: OCSP (1)
+	Responder ID list Length: 0
+	Request Extensions Length: 0
+	Supported Groups List Length: 8
+	Supported Groups (4 groups)
+	Supported Group: Reserved (GREASE) (0xdada)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 41
+	Group: Reserved (GREASE) (56026)
+	Key Exchange Length: 1
+	Key Exchange: 00
+	ALPS Extension Length: 3
+	Supported ALPN List
+	Supported ALPN Length: 2
+	Supported ALPN: h2
+	Supported Versions length: 6
+	Supported Version: Reserved (GREASE) (0x8a8a)
+	Server Name list length: 19
+	Server Name Type: host_name (0)
+	Server Name length: 16
+	Server Name: webeep.polimi.it
+	EC point formats Length: 1
+	Elliptic curves point formats (1)
+	EC point format: uncompressed (0)
+	ALPN Extension Length: 12
+	ALPN Protocol
+	ALPN string length: 2
+	ALPN Next Protocol: h2
+	Algorithms Length: 2
+	Algorithm: brotli (2)
+	Signature Hash Algorithms Length: 16
+	Signature Hash Algorithms (8 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Renegotiation info extension length: 0
+	JA3 Fullstring: 771,27242-4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,56026-5-10-45-51-17513-43-0-23-11-18-16-27-13-35-65281-43690,56026-29-23-24,0
+	JA3: 35dbe0101b8fb89be83fe0bf9c5fed39
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Extension: status_request (len=5)
+	Extension: supported_groups (len=10)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=43)
+	Key Share extension
+	Key Share Entry: Group: Reserved (GREASE), Key Exchange length: 1
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: application_settings (len=5)
+	Extension: supported_versions (len=7)
+	Extension: server_name (len=21)
+	Server Name Indication extension
+	Extension: extended_master_secret (len=0)
+	Extension: ec_point_formats (len=2)
+	Extension: signed_certificate_timestamp (len=0)
+	Extension: application_layer_protocol_negotiation (len=14)
+	Extension: compress_certificate (len=3)
+	Extension: signature_algorithms (len=18)
+	Extension: session_ticket (len=208)
+	Extension: renegotiation_info (len=1)
+	Renegotiation Info extension
+	Extension: Reserved (GREASE) (len=1)
+	Type: status_request (5)
+	Type: supported_groups (10)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: application_settings (17513)
+	Type: supported_versions (43)
+	Type: server_name (0)
+	Type: extended_master_secret (23)
+	Type: ec_point_formats (11)
+	Type: signed_certificate_timestamp (18)
+	Type: application_layer_protocol_negotiation (16)
+	Type: compress_certificate (27)
+	Type: signature_algorithms (13)
+	Type: session_ticket (35)
+	Type: renegotiation_info (65281)
+	Type: Reserved (GREASE) (43690)
+	Length: 5
+	Length: 10
+	Length: 2
+	Length: 43
+	Length: 5
+	Length: 7
+	Length: 21
+	Length: 0
+	Length: 2
+	Length: 0
+	Length: 14
+	Length: 3
+	Length: 18
+	Length: 208
+	Length: 1
+	Length: 1
+	Data (208 bytes)
+	Data: 00
+	Supported Group: x25519 (0x001d)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: secp384r1 (0x0018)
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 4e2191f19abc0aeeaa03cb90d4ab32b7beadcc52a73a76636a8cf9b6ace4b66a
+	Supported Version: TLS 1.3 (0x0304)
+	Supported Version: TLS 1.2 (0x0303)
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+",,,,,,,,,
+1,131.175.186.68,192.168.1.12,6,TLS,191,4,2023-03-30 22:46:32.781435,1680209192.781435296,443,46314,0x0018,1,523,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 81
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 77
+	Version: TLS 1.2 (0x0303)
+	Random: 2383f6856d42e841249377ac2aaa2bb003696fdcdddf4c47d8b8a389dc06bf10
+	GMT Unix Time: Nov 18, 1988 11:08:05.000000000 CET
+	Random Bytes: 6d42e841249377ac2aaa2bb003696fdcdddf4c47d8b8a389dc06bf10
+	Session ID Length: 32
+	Session ID: 048b4183d009452cbfa47d0b8f253c618a8e071ae6d4e9a9d5567a963a8e40e2
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Compression Method: null (0)
+	Extensions Length: 5
+	Extension: renegotiation_info (len=1)
+	Type: renegotiation_info (65281)
+	Length: 1
+	Renegotiation info extension length: 0
+	JA3S Fullstring: 771,49200,65281
+	JA3S: 364ff14b04ef93c3b4cfa429d729c0d9
+	Change Cipher Spec Message
+	Expert Info (Note/Sequence): This session reuses previously negotiated keys (Session resumption)
+	This session reuses previously negotiated keys (Session resumption)
+	Severity level: Note
+	Group: Sequence
+	TLSv1.2 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	TLSv1.2 Record Layer: Handshake Protocol: Encrypted Handshake Message
+	Content Type: Change Cipher Spec (20)
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Length: 40
+	Handshake Protocol: Encrypted Handshake Message
+	Renegotiation Info extension
+",,,,,,,,,
+2,192.168.1.12,131.175.186.68,6,TLS,105,6,2023-03-30 22:46:32.781742,1680209192.781741623,46314,443,0x0018,523,138,"Layer TLS:
+	TLSv1.2 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Handshake Protocol: Encrypted Handshake Message
+	TLSv1.2 Record Layer: Handshake Protocol: Encrypted Handshake Message
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 40
+",,,,,,,,,
+3,192.168.1.12,131.175.186.68,6,TLS,1124,7,2023-03-30 22:46:32.781958,1680209192.781958446,46314,443,0x0018,574,138,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1065
+	Encrypted Application Data: 000000000000000133b0065ee9a41a461070f73519c46a736c68cc6419047a42c2ea9951…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+4,131.175.186.68,192.168.1.12,6,TLS,691,9,2023-03-30 22:46:32.815603,1680209192.815602958,443,46314,0x0018,138,1644,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 471
+	Encrypted Application Data: f2169ae1b16ba4d97b4ac444fa0742d79b984c7c934ee2b9d1191abe343bd24f9d30c544…
+	Application Data Protocol: http-over-tls
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Content Type: Application Data (23)
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 91
+	Length: 26
+	Length: 29
+	Encrypted Application Data: f2169ae1b16ba4da4bddede4ffa1e6ee51967358cbf2211f06f8282abe835a2926cc2c55…
+	Encrypted Application Data: f2169ae1b16ba4dba704e0d80e8b9394a4e36c0fa5f4b8ec1502
+	Encrypted Application Data: f2169ae1b16ba4dc87e02946e43ff0ee1716e33ccfd18a29d5757e3f69
+	Application Data Protocol: http-over-tls
+	Application Data Protocol: http-over-tls
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+5,192.168.1.12,192.168.1.1,17,DNS,90,11,2023-03-30 22:46:33.870811,1680209193.870810694,,,,,,,0xad21,0,www.news.google.com,<Root>,1,0x0001,1,0,0
+6,192.168.1.12,192.168.1.1,17,DNS,90,12,2023-03-30 22:46:33.870884,1680209193.870883611,,,,,,,0x481e,0,www.news.google.com,<Root>,28,0x0001,1,0,0
+7,192.168.1.1,192.168.1.12,17,DNS,120,13,2023-03-30 22:46:33.893959,1680209193.893958521,,,,,,,0xad21,1,www.news.google.com,www.news.google.com,1,0x0001,1,2,0
+8,192.168.1.1,192.168.1.12,17,DNS,132,14,2023-03-30 22:46:33.893959,1680209193.893958825,,,,,,,0x481e,1,www.news.google.com,www.news.google.com,28,0x0001,1,2,0
+9,192.168.1.12,216.239.38.180,6,TLS,397,20,2023-03-30 22:46:33.950511,1680209193.950511075,51730,443,0x0018,1,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 326
+	Encrypted Application Data: 118c0c1b719c25587f31e34dbbc8cd30fc911b8ef3b528177f8083d2daafacd7e41c529c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+10,192.168.1.12,142.250.184.78,6,TLS,583,22,2023-03-30 22:46:33.960431,1680209193.960430635,50500,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 79052a202924558ca6eb54b56521a47c70630fb98075e9efc0d2fc1f86cbb094
+	GMT Unix Time: May  4, 2034 20:53:20.000000000 CEST
+	Random Bytes: 2924558ca6eb54b56521a47c70630fb98075e9efc0d2fc1f86cbb094
+	Session ID Length: 32
+	Session ID: 555dadddf19a29d883b196146e37c1c4763e89c68fc6cf519f1156dcd67bc353
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=24)
+	Type: server_name (0)
+	Length: 24
+	Server Name list length: 22
+	Server Name Type: host_name (0)
+	Server Name length: 19
+	Server Name: www.news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 4b44766f19e2f3fbee6b8f9e785804a29ad234397f4bad0fe1c4cf3999e2255f
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=153)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 153
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+11,142.250.184.78,192.168.1.12,6,TLS,1466,25,2023-03-30 22:46:34.188310,1680209194.188310362,443,50500,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 53a0148c8c1398cae9e883474390c5fa0a85a155c9cea3d595048ff72f0a3a68
+	Session ID Length: 32
+	Session ID: 555dadddf19a29d883b196146e37c1c4763e89c68fc6cf519f1156dcd67bc353
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 5f13b2268125523fa50f33c144c1bdb1a77230be92969b3c45495a63e5bd207d
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+12,142.250.184.78,192.168.1.12,6,TLS,2999,27,2023-03-30 22:46:34.188343,1680209194.188342748,443,50500,0x0018,1401,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4195
+	Encrypted Application Data: 469dd0a5f29db6c9c8f7dc70e8f3df7d268010de27ecd6515e201b748a208356a4d85627…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+13,192.168.1.12,142.250.184.78,6,TLS,146,29,2023-03-30 22:46:34.190148,1680209194.190148260,50500,443,0x0018,518,4334,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 7d53f5d264ed9d4f075650b223cb5f46afff2ed6f05af38b9adf1c611da069ae50bcbf82…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+14,192.168.1.12,142.250.184.78,6,TLS,238,30,2023-03-30 22:46:34.190500,1680209194.190500413,50500,443,0x0018,598,4334,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 167
+	Encrypted Application Data: d22140b84e0f8748e0858aaeb2c053f9876a290bf6942ef44114a279b3824c3c865e6e73…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+15,142.250.184.78,192.168.1.12,6,TLS,1332,32,2023-03-30 22:46:34.195188,1680209194.195187549,443,50500,0x0018,4334,770,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: ba683eed4824ec692c9485ae89edef2ad3f8df5e514b98edd72d6c8ad74372ff8f5a9a12…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 663
+	Encrypted Application Data: cd6e7e5a7b6058d0380889973414ca7fad941174edb55479d6fd04fe41aec38160a7231b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+16,192.168.1.12,142.250.184.78,6,TLS,583,37,2023-03-30 22:46:34.262757,1680209194.262757351,50508,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 1bef069a6849cb33c49aee566caa7433af44f6299e1bc3fc7b7ad510d28cbfff
+	GMT Unix Time: Nov  7, 1984 05:27:06.000000000 CET
+	Random Bytes: 6849cb33c49aee566caa7433af44f6299e1bc3fc7b7ad510d28cbfff
+	Session ID Length: 32
+	Session ID: 574a424a5b40f6ab3a053de1194914d9014fee4b7e220f3ad49da1ed52074cdc
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=20)
+	Type: server_name (0)
+	Length: 20
+	Server Name list length: 18
+	Server Name Type: host_name (0)
+	Server Name length: 15
+	Server Name: news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 8dbd8821b7d5fcd3789acdfe938695234328e027909a7b75bc7d665bab961819
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=157)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 157
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+17,216.239.38.180,192.168.1.12,6,TLS,578,38,2023-03-30 22:46:34.266247,1680209194.266246643,443,51730,0x0018,1,332,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 507
+	Encrypted Application Data: f4d8348491f9bb9c87aa1898d35cade7c491fac90d45bf4604be197e7cc750f6c1f41763…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+18,216.239.38.180,192.168.1.12,6,TLS,968,39,2023-03-30 22:46:34.266888,1680209194.266887622,443,51730,0x0018,513,332,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 897
+	Encrypted Application Data: 8d6e49b5fa2cddbe151483acfdab49724dbd30e52d1d9de9e353c7a378bedfd4566470e7…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+19,216.239.38.180,192.168.1.12,6,TLS,97,41,2023-03-30 22:46:34.270644,1680209194.270643808,443,51730,0x0018,1415,332,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 26
+	Encrypted Application Data: 29cf8fd4798b8987ad84226f10e84165b485ca68a2cff9a5ff1e
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+20,216.239.38.180,192.168.1.12,6,TLS,105,42,2023-03-30 22:46:34.270864,1680209194.270863853,443,51730,0x0018,1446,332,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 63f21268f21319d4f90dec4cb13385ab772d0fc4befb12a0f329515232c598d0ec8f
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+21,192.168.1.12,216.239.38.180,6,TLS,105,44,2023-03-30 22:46:34.270934,1680209194.270933939,51730,443,0x0018,332,1485,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: dba43eed2946f066ba5114dcdbccff128c791874d5ed2621cc7e27f5f9de53e650d6
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+22,142.250.184.78,192.168.1.12,6,TLS,1466,51,2023-03-30 22:46:34.491874,1680209194.491873598,443,50508,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: cdc1bdc89ff6be1a25369864f24f7f2a2c131aa0303acccfed0a56cdc7b27f16
+	Session ID Length: 32
+	Session ID: 574a424a5b40f6ab3a053de1194914d9014fee4b7e220f3ad49da1ed52074cdc
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 1311d919e8ba678ab500bd9f39bb604c250867855dd0f2f3325619b63b6fa824
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+23,142.250.184.78,192.168.1.12,6,TLS,1600,55,2023-03-30 22:46:34.491976,1680209194.491975516,443,50508,0x0018,2801,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4196
+	Encrypted Application Data: 9596af451e3e3b384ce25edd13bc0f9a09f086d405e8ca5ed4bad79d6903a3a5bcad0d04…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+24,192.168.1.12,142.250.184.78,6,TLS,146,57,2023-03-30 22:46:34.495740,1680209194.495740225,50508,443,0x0018,518,4335,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 245616000e2ca1cbb6f2f7ee02b7c7ac8991bb516b08e388cd94df9012e81ea669d9b037…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+25,192.168.1.12,142.250.184.78,6,TLS,234,58,2023-03-30 22:46:34.496175,1680209194.496174658,50508,443,0x0018,598,4335,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 163
+	Encrypted Application Data: 09f0304484679db0447591e2d8cecf4e27ff5e3c4b39b6f382865a0281c376d4d5feac39…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+26,142.250.184.78,192.168.1.12,6,TLS,2604,60,2023-03-30 22:46:34.529115,1680209194.529115126,443,50508,0x0018,4335,766,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: f618f01bcad2caa483c8f9472455616e210eec78f984c13d195b7edced6783aab810de20…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1935
+	Encrypted Application Data: ab0ddd9fadb782c7b198387b89cf152b5d16382c8494fcbe97ef6597266bf77be371778e…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+27,192.168.1.12,192.168.1.1,17,DNS,89,62,2023-03-30 22:46:34.533102,1680209194.533101461,,,,,,,0xc2e1,0,consent.google.com,<Root>,1,0x0001,1,0,0
+28,192.168.1.12,192.168.1.1,17,DNS,89,63,2023-03-30 22:46:34.533171,1680209194.533170620,,,,,,,0x346d,0,consent.google.com,<Root>,28,0x0001,1,0,0
+29,192.168.1.1,192.168.1.12,17,DNS,117,64,2023-03-30 22:46:34.538730,1680209194.538729970,,,,,,,0x346d,1,consent.google.com,consent.google.com,28,0x0001,1,1,0
+30,192.168.1.1,192.168.1.12,17,DNS,105,65,2023-03-30 22:46:34.538823,1680209194.538823071,,,,,,,0xc2e1,1,consent.google.com,consent.google.com,1,0x0001,1,1,0
+31,192.168.1.12,142.250.180.174,6,TLS,583,69,2023-03-30 22:46:34.610553,1680209194.610553382,39320,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: c1b5e1ff0bf3f2d43108a308cb79bbe7a9786d417a363a4e778ec66450d39404
+	GMT Unix Time: Dec 25, 2072 21:15:59.000000000 CET
+	Random Bytes: 0bf3f2d43108a308cb79bbe7a9786d417a363a4e778ec66450d39404
+	Session ID Length: 32
+	Session ID: 1594847b5efaba10f6205656f3c6ab84190275f9ebedc9fc737907f6bf5cacd9
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=23)
+	Type: server_name (0)
+	Length: 23
+	Server Name list length: 21
+	Server Name Type: host_name (0)
+	Server Name length: 18
+	Server Name: consent.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 4bdc73014c636be2808695556fa53c2840d83f1eb5576b63f131695c44720f04
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=154)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 154
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+32,142.250.180.174,192.168.1.12,6,TLS,1466,77,2023-03-30 22:46:34.836154,1680209194.836153691,443,39320,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: b2eef061868d758788193f54fc44b75d0c4f17c7e7d0dfc70438cd58c34e8a87
+	Session ID Length: 32
+	Session ID: 1594847b5efaba10f6205656f3c6ab84190275f9ebedc9fc737907f6bf5cacd9
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 4d7daa9a45541f1b1760538b53deeb3e9f1e87b206148e3794a2b6ab3515a102
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+33,142.250.180.174,192.168.1.12,6,TLS,4062,81,2023-03-30 22:46:34.836265,1680209194.836265101,443,39320,0x0018,2801,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 6658
+	Encrypted Application Data: 100d3e62b38beed362657c07cf868a0580ef0e6631cc73b3b786eeea4643c0b47edcea54…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+34,192.168.1.12,142.250.180.174,6,TLS,146,83,2023-03-30 22:46:34.838462,1680209194.838462046,39320,443,0x0018,518,6797,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 87ef9239187144c1234553bb7f09614f76073c8f1ab2650263a061ef2367006f7e192b1b…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+35,192.168.1.12,142.250.180.174,6,TLS,550,84,2023-03-30 22:46:34.838935,1680209194.838935075,39320,443,0x0018,598,6797,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 479
+	Encrypted Application Data: 17c5e0b6037624bff2c00b746e71c5ab0ebf6f9a15183a9beaa468426db3eef002f16c24…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+36,142.250.180.174,192.168.1.12,6,TLS,1934,86,2023-03-30 22:46:34.891136,1680209194.891136228,443,39320,0x0018,6797,1082,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 22dfd11965534e57cc0d43213370183ab295e0d78852ccf02d4db80730f3a1585e4f626b…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1265
+	Encrypted Application Data: 0e642aac1d33890a4480f64dbaf15336a6686bce6cbdcdb571ebdc4622aefaf5e56db885…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+37,192.168.1.12,142.250.180.174,6,TLS,547,88,2023-03-30 22:46:34.892887,1680209194.892887434,39320,443,0x0018,1082,8665,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 476
+	Encrypted Application Data: 6876d62ff1a5f26e58a5b5eb01df4cfe0f4e82933af0660f57ff72f176e8a29c1380aec1…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+38,142.250.180.174,192.168.1.12,6,TLS,1466,90,2023-03-30 22:46:34.942112,1680209194.942111704,443,39320,0x0018,8665,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 51d8440ed9bfbf6f9ed1234b0ea5650ec7462c1f3eb7381f3cc3857ce417c341996a9568…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+39,142.250.180.174,192.168.1.12,6,TLS,1466,91,2023-03-30 22:46:34.942127,1680209194.942127366,443,39320,0x0018,10065,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 4bdbdb737515ffa6cf672e9af9c657875e29fccc1f2fffe1aa092915aae38789621360bc…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+40,142.250.180.174,192.168.1.12,6,TLS,1449,92,2023-03-30 22:46:34.942127,1680209194.942127394,443,39320,0x0018,11465,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1378
+	Encrypted Application Data: 26aa8ea2121b225d0bbe7cbed7faaf1492779bbdd085ad66b666799017dd640a07e2b533…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+41,142.250.180.174,192.168.1.12,6,TLS,1421,94,2023-03-30 22:46:34.945352,1680209194.945352099,443,39320,0x0018,12848,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1350
+	Encrypted Application Data: a7b8ad8a3e29a7294635e9ce17f2597105b2deaba1d5af62a9d9c332383d227e1ebf8a3b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+42,142.250.180.174,192.168.1.12,6,TLS,195,95,2023-03-30 22:46:34.945480,1680209194.945479843,443,39320,0x0018,14203,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 124
+	Encrypted Application Data: 630c1f82e27d1d076396924372393be976e09dbedfc9a32e30ab1e17b8b564321855189b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+43,142.250.180.174,192.168.1.12,6,TLS,93,96,2023-03-30 22:46:34.945480,1680209194.945479873,443,39320,0x0018,14332,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 22
+	Encrypted Application Data: 990f3c7ec8e54ab219bdcccae97c69a7b610f8e6d393
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+44,192.168.1.12,142.250.184.78,6,TLS,583,110,2023-03-30 22:46:35.013581,1680209195.013580927,50522,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 07dba5a2b757aa36856d1468e089cc900d3013523cfc17aac9f27c6f4b653591
+	GMT Unix Time: Mar  6, 1974 21:54:58.000000000 CET
+	Random Bytes: b757aa36856d1468e089cc900d3013523cfc17aac9f27c6f4b653591
+	Session ID Length: 32
+	Session ID: b34f9cbcedc2ce85387ba40495414b344ccac6b4b41ac53a52ccd6d9daceaa88
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=24)
+	Type: server_name (0)
+	Length: 24
+	Server Name list length: 22
+	Server Name Type: host_name (0)
+	Server Name length: 19
+	Server Name: www.news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: a934adf3c7e7935f8369d48bdad66550f1bd239bab9f0a2d9e53bf574c3afa19
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=153)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 153
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+45,142.250.184.78,192.168.1.12,6,TLS,2866,113,2023-03-30 22:46:35.240547,1680209195.240546997,443,50522,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: a46ae75c47d5a9139b4e773be01389da76a956d54d6f18795fff0d31ee2ccfaf
+	Session ID Length: 32
+	Session ID: b34f9cbcedc2ce85387ba40495414b344ccac6b4b41ac53a52ccd6d9daceaa88
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: a2702752b6b02214f2d3d92df7f298aeeb93b96d01e69da2a928d995e9737d00
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+46,142.250.184.78,192.168.1.12,6,TLS,201,117,2023-03-30 22:46:35.241249,1680209195.241249167,443,50522,0x0018,4201,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4197
+	Encrypted Application Data: a1feee959ca8811c5dcd3f1a7785d65cad09702d6ab8093fdcd45845d6af8f10cc667821…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+47,192.168.1.12,142.250.184.78,6,TLS,146,119,2023-03-30 22:46:35.243014,1680209195.243014321,50522,443,0x0018,518,4336,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 51f2bbfa8244124d40fe504b74795314ffa3dee023518324cf45d0c444386f0046d1dfbc…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+48,192.168.1.12,142.250.184.78,6,TLS,238,120,2023-03-30 22:46:35.243352,1680209195.243351638,50522,443,0x0018,598,4336,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 167
+	Encrypted Application Data: 4565ec516cabf7d88d6d03dcfd8fdd6704d27afff67786a182c19bf586ba65bf82398e9c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+49,142.250.184.78,192.168.1.12,6,TLS,1332,122,2023-03-30 22:46:35.248060,1680209195.248060068,443,50522,0x0018,4336,770,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 66f99fa3ec3db29a19c496cea7178106144812badf412db7f830f18ace59f237923551da…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 663
+	Encrypted Application Data: 2808e686fa65a0f5f82ca4dac3bac3e5a6e5c68d4f3d2ee10002775c32ff5d904a725718…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+50,192.168.1.12,142.250.184.78,6,TLS,583,128,2023-03-30 22:46:35.320537,1680209195.320537225,50528,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 0b29316fcc7ea18378857bae256b21c59764eb65c8354309c79d65dfad549016
+	GMT Unix Time: Dec  8, 1975 06:36:47.000000000 CET
+	Random Bytes: cc7ea18378857bae256b21c59764eb65c8354309c79d65dfad549016
+	Session ID Length: 32
+	Session ID: 0fb7566bbf24af6eadf10e32c1f2f79980a533dfd799a11e2f8d7798ae679d68
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=20)
+	Type: server_name (0)
+	Length: 20
+	Server Name list length: 18
+	Server Name Type: host_name (0)
+	Server Name length: 15
+	Server Name: news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 30b6b43c3a31b294985f47153e9629ff34b1acf81b5e5112cbae0771cc63c476
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=157)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 157
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+51,142.250.184.78,192.168.1.12,6,TLS,4401,132,2023-03-30 22:46:35.548653,1680209195.548653019,443,50528,0x0018,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: efc784366e2e4929e6792d96de95e5672a74d67e5c484a2914cb9ccf1efca738
+	Session ID Length: 32
+	Session ID: 0fb7566bbf24af6eadf10e32c1f2f79980a533dfd799a11e2f8d7798ae679d68
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: a425f74af5078ed873e5b3770ec75aec656a1d86c5aae999055f714d5772905d
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 5e64ff8923bd320929da17275620bcd194fcb6b352dce1a133e5754e4eb48c2b5bd05937…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Length: 4197
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+52,192.168.1.12,142.250.184.78,6,TLS,146,134,2023-03-30 22:46:35.550329,1680209195.550329548,50528,443,0x0018,518,4336,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: f0eb1093f27b7bc7e23829c2322901f2135b1c884ed4fe7d7f00707cef8cd79d2da7e7c1…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+53,192.168.1.12,142.250.184.78,6,TLS,234,135,2023-03-30 22:46:35.550557,1680209195.550557097,50528,443,0x0018,598,4336,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 163
+	Encrypted Application Data: b6d6cf7da1fdb9c8b104230357796c774c111e0c0fdc9726da1ba7805e89ffc777a3e57c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+54,142.250.184.78,192.168.1.12,6,TLS,2772,137,2023-03-30 22:46:35.579654,1680209195.579653814,443,50528,0x0018,4336,766,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 5adf566b5ed43f6b3368d45dbc5c2d8c58241256813057ad4f510cc96ad650e968e10c3a…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 2103
+	Encrypted Application Data: 83d6a40616b45201c8a15e6dc7fef672bb865edad7008d0874fe444aa46c02a8b4c7a2d4…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+55,192.168.1.12,142.250.180.174,6,TLS,583,142,2023-03-30 22:46:35.645067,1680209195.645067289,39334,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 0ddb12c11f9c4a44df90fad1c2c720b0e8a5b3411ebb4836f360f852aba54bef
+	GMT Unix Time: May 14, 1977 13:29:53.000000000 CET
+	Random Bytes: 1f9c4a44df90fad1c2c720b0e8a5b3411ebb4836f360f852aba54bef
+	Session ID Length: 32
+	Session ID: f62147a7e6e8776a69bee1562b19a16a28725fc7bee2e9924dea93092a4f22b3
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=23)
+	Type: server_name (0)
+	Length: 23
+	Server Name list length: 21
+	Server Name Type: host_name (0)
+	Server Name length: 18
+	Server Name: consent.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 9749f53db4584b114c7c8816e7da89155291973b86be68c04545ac71ca76c348
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=154)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 154
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+56,142.250.180.174,192.168.1.12,6,TLS,1466,145,2023-03-30 22:46:35.875831,1680209195.875831189,443,39334,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: a4bdc35a7664ae3224fe48082e63a93ff8b7661cd1d212fe4eff790a4bbff697
+	Session ID Length: 32
+	Session ID: f62147a7e6e8776a69bee1562b19a16a28725fc7bee2e9924dea93092a4f22b3
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: da00801765b56a57160dcb66d87f75c501f9ddd1e3a511c0314a457cac65e43d
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+57,142.250.180.174,192.168.1.12,6,TLS,1260,151,2023-03-30 22:46:35.876860,1680209195.876859599,443,39334,0x0018,5601,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 6656
+	Encrypted Application Data: cf42325b1d733dc40924bd9217116c1a391d99540d51918197bda0f153032aeee3327f30…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+58,192.168.1.12,142.250.180.174,6,TLS,146,153,2023-03-30 22:46:35.878501,1680209195.878501309,39334,443,0x0018,518,6795,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: 290e5b4557c79b29c44f96db5d720f501a333d3c219fc32eb0c730967c684be2c2b573cf…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+59,192.168.1.12,142.250.180.174,6,TLS,550,154,2023-03-30 22:46:35.878787,1680209195.878787018,39334,443,0x0018,598,6795,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 479
+	Encrypted Application Data: 6993b4cb8c72bfadc439f5c7d667ebefb436b539a4f2e7800223ec8088706206ae3f5baa…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+60,142.250.180.174,192.168.1.12,6,TLS,1466,156,2023-03-30 22:46:36.009101,1680209196.009101356,443,39334,0x0010,6795,1082,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 0d6338082a5bb3711af9ba971f0c4d1873eacf4bc68057e3cd25c2c3d24fad88231622c9…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+61,142.250.180.174,192.168.1.12,6,TLS,693,157,2023-03-30 22:46:36.009539,1680209196.009539189,443,39334,0x0018,8195,1082,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1424
+	Encrypted Application Data: addeabd3ea8d8c6fd5127fbaa41f46ea06d850e2aa0e02281086f0075e2c7062cbfdf129…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+62,192.168.1.12,142.250.180.174,6,TLS,547,159,2023-03-30 22:46:36.011413,1680209196.011413211,39334,443,0x0018,1082,8822,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 476
+	Encrypted Application Data: 2d6b41774fbb10913060f0a5cb5c34d87ceaf9a0259f2beb27066872b34af8b5d23f161f…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+63,142.250.180.174,192.168.1.12,6,TLS,1466,161,2023-03-30 22:46:36.062684,1680209196.062684162,443,39334,0x0018,8822,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 309b6965023c2ef97b0e30f76b80c643fa73121479c617b520785b46012ff202a7494157…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+64,142.250.180.174,192.168.1.12,6,TLS,1466,162,2023-03-30 22:46:36.063124,1680209196.063123851,443,39334,0x0018,10222,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 1e0dc57c300db9bf5cab50e3734be2b5a6ce8038eff1c8ac1209f9956b870709567abbd4…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+65,142.250.180.174,192.168.1.12,6,TLS,1466,164,2023-03-30 22:46:36.063436,1680209196.063435871,443,39334,0x0018,11622,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: dfa544ddbe1ad7cb52f9e3aada1979ab05873d1c6fced95e8c38b19d9ef192e08d72cf21…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+66,142.250.180.174,192.168.1.12,6,TLS,195,165,2023-03-30 22:46:36.063710,1680209196.063710356,443,39334,0x0018,13022,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 124
+	Encrypted Application Data: c20d89388ca7c9516162ebb72763976f702bb5d39c8c46ffd55c74a5fd54b338162f90e3…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+67,142.250.180.174,192.168.1.12,6,TLS,1466,167,2023-03-30 22:46:36.064192,1680209196.064191806,443,39334,0x0018,13151,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: dc14a590a751610100f3608dd3e268eaf6f318ffc41a0124885a3e80badcccc3a8c420d5…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+68,142.250.180.174,192.168.1.12,6,TLS,155,168,2023-03-30 22:46:36.064459,1680209196.064458995,443,39334,0x0018,14551,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 84
+	Encrypted Application Data: f0f6c15127807d8876a0dc87863565c4b35bcef6c87bf2bf2794c9dad1278c1dc8f54abd…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+69,142.250.180.174,192.168.1.12,6,TLS,93,170,2023-03-30 22:46:36.064589,1680209196.064588563,443,39334,0x0018,14640,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 22
+	Encrypted Application Data: 205fb52ac905888bbbc3d46155d6553063c907a2c711
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+70,192.168.1.12,142.250.184.78,6,TLS,583,183,2023-03-30 22:46:36.128432,1680209196.128431489,50536,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: d2840d37826cd48633bfa4f44f84466324dbcb28da19e0776ca078bd8c937ce7
+	GMT Unix Time: Dec  2, 2081 03:51:35.000000000 CET
+	Random Bytes: 826cd48633bfa4f44f84466324dbcb28da19e0776ca078bd8c937ce7
+	Session ID Length: 32
+	Session ID: 2ac6b7455720818ccdfcdad9b309a7622ec0f9d421a4729606c7f74f73a43703
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=24)
+	Type: server_name (0)
+	Length: 24
+	Server Name list length: 22
+	Server Name Type: host_name (0)
+	Server Name length: 19
+	Server Name: www.news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 52fec72e1179e44f843589a1c395be63f88e109f65b794aae0588981af89d172
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=153)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 153
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+71,142.250.184.78,192.168.1.12,6,TLS,1466,186,2023-03-30 22:46:36.356838,1680209196.356837990,443,50536,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: e258d451d7ed097749d0f5d2ea7bfdcd969b8e1b67e27c4dd67615d26a2d3f59
+	Session ID Length: 32
+	Session ID: 2ac6b7455720818ccdfcdad9b309a7622ec0f9d421a4729606c7f74f73a43703
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 7e2859793417ec3b65caee3c70f86e0e0310a323b800203ae679723f6170ca43
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+72,142.250.184.78,192.168.1.12,6,TLS,3000,188,2023-03-30 22:46:36.356873,1680209196.356872538,443,50536,0x0018,1401,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4196
+	Encrypted Application Data: 920770e3902c47e8979b982a96f3086d3f601c50eca5cf0ea5f89c0797ea7bebe675d301…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+73,192.168.1.12,142.250.184.78,6,TLS,146,190,2023-03-30 22:46:36.359009,1680209196.359009023,50536,443,0x0018,518,4335,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: d36cf9b071f88451cb5f719e4b98b56c5cd65d9110dfdbff5693ad622459c61ed54e99ea…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+74,192.168.1.12,142.250.184.78,6,TLS,238,191,2023-03-30 22:46:36.359278,1680209196.359277655,50536,443,0x0018,598,4335,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 167
+	Encrypted Application Data: f01fe67cec73ef3dfaac5a0564db73b0b2833a896121cf6dc111d57dfa20eedb10edaeee…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+75,142.250.184.78,192.168.1.12,6,TLS,1332,193,2023-03-30 22:46:36.364856,1680209196.364856571,443,50536,0x0018,4335,770,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 09b3ac6b47dda548119d1dafcdb21bcfaccc318a87557eef74c9f90b106a655e701d4169…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 663
+	Encrypted Application Data: e63d3475c3622883559158dabe17b794017e04c6d6ad4f5f4110cdef5956dd100ad8cabd…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+76,192.168.1.12,142.250.184.78,6,TLS,583,198,2023-03-30 22:46:36.436666,1680209196.436665739,50550,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: aa7d82d654fb74ead7c55d603b48a77c5141a2a589df1ed1bea80c73199cab9d
+	GMT Unix Time: Aug 22, 2060 00:16:54.000000000 CEST
+	Random Bytes: 54fb74ead7c55d603b48a77c5141a2a589df1ed1bea80c73199cab9d
+	Session ID Length: 32
+	Session ID: da63fe187311bfc7ccd07740a84735f2ac2eb7d16605fa362a69cfc3508fc7fd
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=20)
+	Type: server_name (0)
+	Length: 20
+	Server Name list length: 18
+	Server Name Type: host_name (0)
+	Server Name length: 15
+	Server Name: news.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 9f37aec1db672f1827f635ddfb8986047726cbd96910583d8fae74e01d507033
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=157)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 157
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+77,142.250.184.78,192.168.1.12,6,TLS,2866,201,2023-03-30 22:46:36.669388,1680209196.669387924,443,50550,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 74788c73ef044c0cfdb46761d0e23e140d148e272e78000bec204f11655b934c
+	Session ID Length: 32
+	Session ID: da63fe187311bfc7ccd07740a84735f2ac2eb7d16605fa362a69cfc3508fc7fd
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: db2fcb86298c348cfd9559e386b32241c4e49d7ab8128117a184af218e7ec359
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+78,142.250.184.78,192.168.1.12,6,TLS,199,205,2023-03-30 22:46:36.669635,1680209196.669634784,443,50550,0x0018,4201,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 4195
+	Encrypted Application Data: 923716ac94902d1d240f19574cb3c5e3d2cfff03abbfa1302954f716526f42f4a04edf18…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+79,192.168.1.12,142.250.184.78,6,TLS,146,207,2023-03-30 22:46:36.671185,1680209196.671185114,50550,443,0x0018,518,4334,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: cd700d36dcd81068d29d77b74c5353677d9e13cfb2e73ab0faefc40154d0435859fdd532…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+80,192.168.1.12,142.250.184.78,6,TLS,234,208,2023-03-30 22:46:36.671465,1680209196.671464956,50550,443,0x0018,598,4334,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 163
+	Encrypted Application Data: e176db32e123cbbe409e35a3ba2bfcdd10acff58abe6a4b9e166972d231343e5137ca934…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+81,142.250.184.78,192.168.1.12,6,TLS,2772,210,2023-03-30 22:46:36.705145,1680209196.705144755,443,50550,0x0018,4334,766,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: 82f33bdcab8580bbae41543ec42b675357838b1e3e76004d800adeb48c0900cb153b47d2…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 2103
+	Encrypted Application Data: af83cdb768e7281f64259cfd9e0137387c7dfc3c7f1903457c26331bc4d35870378cb961…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+82,192.168.1.12,142.250.180.174,6,TLS,583,215,2023-03-30 22:46:36.769229,1680209196.769228919,39336,443,0x0018,1,1,"Layer TLS:
+	TLSv1 Record Layer: Handshake Protocol: Client Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.0 (0x0301)
+	Length: 512
+	Handshake Protocol: Client Hello
+	Handshake Type: Client Hello (1)
+	Length: 508
+	Version: TLS 1.2 (0x0303)
+	Random: 5e86718c8a180349de38e32eaaff0ec44da893a9aa7ba2a5242fed5c2289c2ca
+	GMT Unix Time: Apr  3, 2020 01:13:16.000000000 CEST
+	Random Bytes: 8a180349de38e32eaaff0ec44da893a9aa7ba2a5242fed5c2289c2ca
+	Session ID Length: 32
+	Session ID: 8b68bc54706a4cfeb0bd547ac468cc80a4690a6970ab911840ba8adf5d24d4b8
+	Cipher Suites Length: 86
+	Cipher Suites (43 suites)
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Methods Length: 1
+	Compression Methods (1 method)
+	Compression Method: null (0)
+	Extensions Length: 349
+	Extension: server_name (len=23)
+	Type: server_name (0)
+	Length: 23
+	Server Name list length: 21
+	Server Name Type: host_name (0)
+	Server Name length: 18
+	Server Name: consent.google.com
+	EC point formats Length: 3
+	Elliptic curves point formats (3)
+	EC point format: uncompressed (0)
+	Supported Groups List Length: 20
+	Supported Groups (10 groups)
+	Supported Group: x25519 (0x001d)
+	ALPN Extension Length: 9
+	ALPN Protocol
+	ALPN string length: 8
+	ALPN Next Protocol: http/1.1
+	Signature Hash Algorithms Length: 40
+	Signature Hash Algorithms (20 algorithms)
+	Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Supported Versions length: 4
+	Supported Version: TLS 1.3 (0x0304)
+	PSK Key Exchange Modes Length: 1
+	PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+	Client Key Share Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: 3feddd32b3c5fc3ff6ed3dfc933909c98e80b46c1f59ff67dc0d2fc75f0e504d
+	Padding Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+	JA3 Fullstring [truncated]: 771,4866-4867-4865-49196-49200-49195-49199-52393-52392-159-158-52394-49327-49325-49326-49324-49188-49192-49187-49191-49162-49172-49161-49171-49315-49311-49314-49310-107-103-57-51-157-156-49313-49309-49312-49308
+	JA3: 07ff1e545ef8ab3fcf8a4dc9272221c2
+	Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+	Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e)
+	Cipher Suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 (0xc0af)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CCM (0xc0ad)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 (0xc0ae)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CCM (0xc0ac)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+	Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+	Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM_8 (0xc0a3)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CCM (0xc09f)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM_8 (0xc0a2)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CCM (0xc09e)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039)
+	Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033)
+	Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM_8 (0xc0a1)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CCM (0xc09d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM_8 (0xc0a0)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CCM (0xc09c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+	Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+	Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+	Cipher Suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+	Server Name Indication extension
+	Extension: ec_point_formats (len=4)
+	Extension: supported_groups (len=22)
+	Extension: application_layer_protocol_negotiation (len=11)
+	Extension: encrypt_then_mac (len=0)
+	Extension: extended_master_secret (len=0)
+	Extension: post_handshake_auth (len=0)
+	Extension: signature_algorithms (len=42)
+	Extension: supported_versions (len=5)
+	Extension: psk_key_exchange_modes (len=2)
+	Extension: key_share (len=38)
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: padding (len=154)
+	Type: ec_point_formats (11)
+	Type: supported_groups (10)
+	Type: application_layer_protocol_negotiation (16)
+	Type: encrypt_then_mac (22)
+	Type: extended_master_secret (23)
+	Type: post_handshake_auth (49)
+	Type: signature_algorithms (13)
+	Type: supported_versions (43)
+	Type: psk_key_exchange_modes (45)
+	Type: key_share (51)
+	Type: padding (21)
+	Length: 4
+	Length: 22
+	Length: 11
+	Length: 0
+	Length: 0
+	Length: 0
+	Length: 42
+	Length: 5
+	Length: 2
+	Length: 38
+	Length: 154
+	EC point format: ansiX962_compressed_prime (1)
+	EC point format: ansiX962_compressed_char2 (2)
+	Supported Group: secp256r1 (0x0017)
+	Supported Group: x448 (0x001e)
+	Supported Group: secp521r1 (0x0019)
+	Supported Group: secp384r1 (0x0018)
+	Supported Group: ffdhe2048 (0x0100)
+	Supported Group: ffdhe3072 (0x0101)
+	Supported Group: ffdhe4096 (0x0102)
+	Supported Group: ffdhe6144 (0x0103)
+	Supported Group: ffdhe8192 (0x0104)
+	Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+	Signature Algorithm: ecdsa_secp521r1_sha512 (0x0603)
+	Signature Algorithm: ed25519 (0x0807)
+	Signature Algorithm: ed448 (0x0808)
+	Signature Algorithm: rsa_pss_pss_sha256 (0x0809)
+	Signature Algorithm: rsa_pss_pss_sha384 (0x080a)
+	Signature Algorithm: rsa_pss_pss_sha512 (0x080b)
+	Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+	Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+	Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+	Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+	Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+	Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+	Signature Algorithm: SHA224 ECDSA (0x0303)
+	Signature Algorithm: SHA224 RSA (0x0301)
+	Signature Algorithm: SHA224 DSA (0x0302)
+	Signature Algorithm: SHA256 DSA (0x0402)
+	Signature Algorithm: SHA384 DSA (0x0502)
+	Signature Algorithm: SHA512 DSA (0x0602)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: Unknown (8)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA224 (3)
+	Signature Hash Algorithm Hash: SHA256 (4)
+	Signature Hash Algorithm Hash: SHA384 (5)
+	Signature Hash Algorithm Hash: SHA512 (6)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: Unknown (7)
+	Signature Hash Algorithm Signature: Unknown (8)
+	Signature Hash Algorithm Signature: Unknown (9)
+	Signature Hash Algorithm Signature: Unknown (10)
+	Signature Hash Algorithm Signature: Unknown (11)
+	Signature Hash Algorithm Signature: SM2 (4)
+	Signature Hash Algorithm Signature: Unknown (5)
+	Signature Hash Algorithm Signature: Unknown (6)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: ECDSA (3)
+	Signature Hash Algorithm Signature: RSA (1)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Signature Hash Algorithm Signature: DSA (2)
+	Supported Version: TLS 1.2 (0x0303)
+",,,,,,,,,
+83,142.250.180.174,192.168.1.12,6,TLS,1466,220,2023-03-30 22:46:36.999971,1680209196.999970816,443,39336,0x0010,1,518,"Layer TLS:
+	TLSv1.2 Record Layer: Handshake Protocol: Server Hello
+	Content Type: Handshake (22)
+	Version: TLS 1.2 (0x0303)
+	Length: 122
+	Handshake Protocol: Server Hello
+	Handshake Type: Server Hello (2)
+	Length: 118
+	Version: TLS 1.2 (0x0303)
+	Random: 75b660e4b7c1321b4fd612f1d04a5ee1d1a4fcf9eb6ffc99f124f9a8f2a584d3
+	Session ID Length: 32
+	Session ID: 8b68bc54706a4cfeb0bd547ac468cc80a4690a6970ab911840ba8adf5d24d4b8
+	Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+	Compression Method: null (0)
+	Extensions Length: 46
+	Extension: key_share (len=36)
+	Type: key_share (51)
+	Length: 36
+	Group: x25519 (29)
+	Key Exchange Length: 32
+	Key Exchange: f5cc95347ba254d9765ff05f5e5bf727e973d1fc0d21ce007a7ff765cf313f2f
+	Supported Version: TLS 1.3 (0x0304)
+	JA3S Fullstring: 771,4866,51-43
+	JA3S: 907bf3ecef1c987c889946b737b43de8
+	Change Cipher Spec Message
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Key Share extension
+	Key Share Entry: Group: x25519, Key Exchange length: 32
+	Extension: supported_versions (len=2)
+	Type: supported_versions (43)
+	Length: 2
+",,,,,,,,,
+84,142.250.180.174,192.168.1.12,6,TLS,2662,226,2023-03-30 22:46:37.000848,1680209197.000847594,443,39336,0x0018,4201,518,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 6658
+	Encrypted Application Data: 5f875f6a564f5cd76c0a1eaf9b7f31ce5a0a04c1250b710a22b1d167ea29bcde99d7c512…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+85,192.168.1.12,142.250.180.174,6,TLS,146,228,2023-03-30 22:46:37.002460,1680209197.002459597,39336,443,0x0018,518,6797,"Layer TLS:
+	TLSv1.3 Record Layer: Change Cipher Spec Protocol: Change Cipher Spec
+	Content Type: Change Cipher Spec (20)
+	Version: TLS 1.2 (0x0303)
+	Length: 1
+	Change Cipher Spec Message
+	Opaque Type: Application Data (23)
+	Encrypted Application Data: a49d19e4b58d3117ac0ba1f769450dbfb591db2b7670d399725690a5e88c83fba30dda72…
+	Application Data Protocol: http-over-tls
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Version: TLS 1.2 (0x0303)
+	Length: 69
+",,,,,,,,,
+86,192.168.1.12,142.250.180.174,6,TLS,550,229,2023-03-30 22:46:37.002750,1680209197.002750262,39336,443,0x0018,598,6797,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 479
+	Encrypted Application Data: 7c0ff2c3aa0c6d1d5852d83c488a3d58d777d349a70d779039a7788bef62c1a64674891b…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+87,142.250.180.174,192.168.1.12,6,TLS,1466,231,2023-03-30 22:46:37.068547,1680209197.068547488,443,39336,0x0010,6797,1082,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 593
+	Encrypted Application Data: c57e497c8dec7683b8c25fa8e0d739acbb75028c319fe2f5c351d4176f5d0b31ade4f16e…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+88,142.250.180.174,192.168.1.12,6,TLS,693,232,2023-03-30 22:46:37.069124,1680209197.069123962,443,39336,0x0018,8197,1082,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1424
+	Encrypted Application Data: db0c510a853e06aa6b44209b54c7cd2ad7a2b7a995ef1312c09fb312d202f8339f506031…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+89,192.168.1.12,142.250.180.174,6,TLS,547,234,2023-03-30 22:46:37.070698,1680209197.070697653,39336,443,0x0018,1082,8824,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 476
+	Encrypted Application Data: 154be02804399a9d43d2cea53623aa21616c2ddd0302baf66d063d5c76eee887ac6f033a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+90,142.250.180.174,192.168.1.12,6,TLS,1466,236,2023-03-30 22:46:37.128465,1680209197.128465102,443,39336,0x0018,8824,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 0c38b5ae7b36cdbf926c29c31461d8c1bb2384754024a5431d58f3ea18732dce3201298c…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+91,142.250.180.174,192.168.1.12,6,TLS,1466,237,2023-03-30 22:46:37.128495,1680209197.128495341,443,39336,0x0018,10224,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: 290d1ac12f8010bc722a32947f18cf16e2c905b1cfd1c025133f3c8c641eae452238f4be…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+92,142.250.180.174,192.168.1.12,6,TLS,1434,239,2023-03-30 22:46:37.129002,1680209197.129001955,443,39336,0x0018,11624,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1363
+	Encrypted Application Data: d47d1ee9c59ba89881e95318fea5c06a98e0621afc92517ea9eb8b252677600bdd81d905…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+93,142.250.180.174,192.168.1.12,6,TLS,1466,240,2023-03-30 22:46:37.129388,1680209197.129387821,443,39336,0x0018,12992,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 1395
+	Encrypted Application Data: bf94820aef0a4a670c73b6780e7adeca65ddb9b9f1f60aef72fd938964d2eef4d8afec8a…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+94,142.250.180.174,192.168.1.12,6,TLS,187,242,2023-03-30 22:46:37.129480,1680209197.129479816,443,39336,0x0018,14392,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 116
+	Encrypted Application Data: 42303ac7cc8787a3cb72077d2204d7bf134b72c04403d94f00d10ee8a3e0a83e5ebda083…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+95,142.250.180.174,192.168.1.12,6,TLS,122,243,2023-03-30 22:46:37.129767,1680209197.129767018,443,39336,0x0018,14513,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 51
+	Encrypted Application Data: 12c804dd3273e8c8b78161e3650b175ca26e93967b11f3ff0f54be575b1a14c42a463ab4…
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+96,142.250.180.174,192.168.1.12,6,TLS,93,245,2023-03-30 22:46:37.129931,1680209197.129930718,443,39336,0x0018,14569,1563,"Layer TLS:
+	TLSv1.3 Record Layer: Application Data Protocol: http-over-tls
+	Opaque Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 22
+	Encrypted Application Data: 520da9a959d5951e290bdc5b9214923707308ebb9795
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
+97,192.168.1.12,94.182.164.242,6,TLS,105,257,2023-03-30 22:46:40.547970,1680209200.547970399,39436,443,0x0018,1,1,"Layer TLS:
+	TLSv1.2 Record Layer: Application Data Protocol: http-over-tls
+	Content Type: Application Data (23)
+	Version: TLS 1.2 (0x0303)
+	Length: 34
+	Encrypted Application Data: 5a462b1b937c9b2eb85887d8eed98ad7fab6af67df2fe4ab591937abf67130c40ca8
+	Application Data Protocol: http-over-tls
+",,,,,,,,,
